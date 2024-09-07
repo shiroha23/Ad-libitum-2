@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "name": "hammer",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:infernal_forge"
+
+        }
+      ]
+    },
+    {
+      "name": "horn",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:monstrous_horn"
+        }
+      ]
+    },
+    {
+      "name": "disc",
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.1,
+          "looting_multiplier": 0.1
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_netherite_monstrosity",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "horn",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:golem_heart"
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.14,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 
+              {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "name": "enigmaticlegacy:etherium_ore"
+        }
+      ]
+    }
+  ]
+}

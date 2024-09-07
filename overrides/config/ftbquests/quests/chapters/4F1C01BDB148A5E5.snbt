@@ -1,0 +1,646 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4F1C01BDB148A5E5"
+	group: "5221DFB0D5EDCAFF"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "4F1C01BDB148A5E5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["34A158B51F92087B"]
+			hide_dependency_lines: true
+			id: "3ADCCC77F382EADE"
+			rewards: [{
+				id: "7D14A99F7F14A376"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "061A10162EAEB477"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06C1E9BB233A3BAD"]
+			id: "696ABABCBF70A72F"
+			rewards: [{
+				id: "069AFBC76B738FC7"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71500D8FC9AF091B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C271752F7DF62AF"]
+			id: "1B8F8F437CB05917"
+			rewards: [{
+				id: "48C34C4DF0BFC00A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "529E9918DFB39B22"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["271DDB67E4D8F1A4"]
+			id: "3D8AD9946DABAF3B"
+			rewards: [{
+				id: "5179F9276801144F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38CCD9237AFDE245"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "6C39E10E5366742E"
+			rewards: [{
+				id: "66C41DBFE4C434B4"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "46A86F504257BD46"
+					item: "ad_astra:coal_generator"
+					type: "item"
+				}
+				{
+					id: "7BB899C9F5D34C1E"
+					item: "ad_astra:solar_panel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C39E10E5366742E"]
+			id: "7F26A84CFCD68A72"
+			rewards: [{
+				id: "5CA041C1113C5AAE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30EB5208D5356B39"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F26A84CFCD68A72"]
+			id: "3E57C9D4B666AE31"
+			rewards: [{
+				id: "1AD8F8A8C24FC7B5"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D08247C8221086B"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E57C9D4B666AE31"]
+			id: "34A158B51F92087B"
+			rewards: [{
+				id: "3260629715C51729"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "551D0900955A46AA"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34A158B51F92087B"]
+			id: "721AB081580D9DD7"
+			rewards: [{
+				id: "2B57283FAF0BFBC1"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "14B6207F46265E8C"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+				{
+					id: "1D69AA1C8C5CACBB"
+					item: "ad_astra:cryo_freezer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33CC3BE714596A8F"]
+			id: "09D9BF538520638E"
+			rewards: [{
+				id: "1CC1A49264547D19"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7873F5FC1CE24FE9"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["696ABABCBF70A72F"]
+			id: "2C271752F7DF62AF"
+			rewards: [{
+				id: "4C5EFD3B9A6C5F89"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "0D49DCACBE780069"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3ADCCC77F382EADE"]
+			id: "06C1E9BB233A3BAD"
+			rewards: [{
+				id: "548C83D61285100D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "38EEA5E09770785F"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B8F8F437CB05917"]
+			id: "271DDB67E4D8F1A4"
+			rewards: [{
+				id: "6E2C3D608985B320"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "1DAAA7B06F46EA22"
+				type: "dimension"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["721AB081580D9DD7"]
+			id: "33CC3BE714596A8F"
+			rewards: [{
+				id: "148887D6251F27CC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1633A30A0A58FC99"
+				item: "ad_astra:water_pump"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C271752F7DF62AF"]
+			hide_dependency_lines: true
+			id: "511E70241DFCEBFD"
+			rewards: [{
+				id: "7967BAFF35B311DA"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E92069151748311"
+				item: {
+					Count: 1
+					id: "ad_astra:energizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06C1E9BB233A3BAD"]
+			hide_dependency_lines: true
+			id: "6C3F7EA5DFE7E2CB"
+			rewards: [{
+				id: "063E9EB2347726C0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EAA8DE6C80DD5FA"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06C1E9BB233A3BAD"]
+			hide_dependency_lines: true
+			id: "6A72E9EC9E245CC8"
+			rewards: [{
+				id: "4EA024B08B5D2246"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "068D66025EBBB217"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C271752F7DF62AF"]
+			hide_dependency_lines: true
+			id: "112BF9D69471C1BF"
+			rewards: [{
+				id: "48A8C329DDAEFACE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DC9F0C7B4D41C6E"
+				item: "ad_astra:oxygen_sensor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E57C9D4B666AE31"]
+			hide_dependency_lines: true
+			id: "1F66410DEFC6E7E0"
+			rewards: [{
+				id: "111321186F7DABEE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BA19D733B2967A0"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77A00BE335B3D57D"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DA03233D2A762E7"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "614447F69982168C"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "航天服"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F66410DEFC6E7E0"]
+			id: "33D4C8B534CC7F1F"
+			rewards: [{
+				id: "569DC8F1549D76DA"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0FE71D8CE3E461FE"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3251487C7F5545B1"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43120EE15C34C6FA"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CA04425C2F91B09"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "下界合金航天服"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33D4C8B534CC7F1F"]
+			id: "5198489377CBCB34"
+			rewards: [{
+				id: "1F73C694E1589ACE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2039DEBBABFA5700"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C5244983AD9F1E3"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FC10FD327638764"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BF85470D8CAC49C"
+					item: {
+						Count: 1
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "喷气式航天服"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Ad Astra"
+}

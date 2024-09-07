@@ -1,0 +1,275 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10851AC32312E483"
+	group: "5C39A77F4B0C1142"
+	id: "10851AC32312E483"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"07B19FFFDD446FDC"
+				"222DDC90C75F0FCF"
+			]
+			id: "6DD1BF5478E67F21"
+			tasks: [{
+				id: "0C04B62B7B5481A7"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:infusion_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DD1BF5478E67F21"]
+			id: "0613B5D928CDF861"
+			tasks: [{
+				id: "6BB1B4454EB16FDA"
+				item: "mysticalagriculture:master_infusion_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0613B5D928CDF861"]
+			id: "2E46EAFFA37A9C54"
+			tasks: [
+				{
+					id: "0A334123FB7E2860"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E0EA15EB0137EC5"
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E46EAFFA37A9C54"]
+			hide_dependency_lines: true
+			id: "27AB06C5FFD7C6D8"
+			tasks: [{
+				id: "43C887FEC2C42B18"
+				item: "mysticalagriculture:seed_reprocessor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E46EAFFA37A9C54"]
+			hide_dependency_lines: true
+			id: "76810F837E462C60"
+			tasks: [{
+				id: "37D62D6707526390"
+				item: "mysticalagriculture:soul_extractor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E46EAFFA37A9C54"]
+			id: "4D36D347E50113D0"
+			tasks: [{
+				id: "5C6CFD8C1062EA96"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mysticalagriculture:seeds"
+					}
+				}
+				title: "神秘农业种子"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D36D347E50113D0"]
+			id: "32E23D976BADD095"
+			tasks: [
+				{
+					id: "3D5AA7531F05A33B"
+					item: "mysticalagriculture:awakening_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "48A28CD52EC7C54E"
+					item: { Count: 4, id: "mysticalagriculture:awakening_pedestal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4992422E10154753"
+					item: { Count: 4, id: "mysticalagriculture:essence_vessel" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E46EAFFA37A9C54"]
+			hide_dependency_lines: true
+			id: "580DD6466FF48805"
+			tasks: [{
+				id: "609AFF73628813CF"
+				item: "mysticalagriculture:enchanter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E23D976BADD095"]
+			id: "4C6F97DF5F8FC7C4"
+			tasks: [{
+				id: "509FEED1AE156D5D"
+				item: "mysticalagriculture:awakened_supremium_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C6F97DF5F8FC7C4"]
+			id: "6292C8A9DC640A32"
+			tasks: [{
+				id: "502E7B92869AA0DF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_sword"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_pickaxe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_shovel"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_axe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_hoe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_staff"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_watering_can"
+								tag: {
+									Active: 0b
+									Water: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_bow"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_crossbow"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_shears"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_fishing_rod"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_sickle"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_scythe"
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:awakened_supremium_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "觉醒精华装备"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "222DDC90C75F0FCF"
+			tasks: [{
+				id: "3D7AB79B16671698"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "07B19FFFDD446FDC"
+			tasks: [{
+				id: "5F39C8D28C2040BB"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	title: "资源农业"
+}

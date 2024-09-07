@@ -1,0 +1,482 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20F187104E49B617"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "20F187104E49B617"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18775B0B646DD89B"]
+			id: "467A5E324944AB2D"
+			rewards: [{
+				count: 16
+				id: "54F09D81AB262D25"
+				item: "youkaishomecoming:sakura_honey_tea"
+				type: "item"
+			}]
+			subtitle: "可以在设置里查看所有按键并更改。"
+			tasks: [
+				{
+					id: "65603F2505BA1FC7"
+					title: " ~  连锁破坏"
+					type: "checkmark"
+				}
+				{
+					id: "72172EBB517614BA"
+					title: " C  缩放"
+					type: "checkmark"
+				}
+				{
+					id: "1764224A1A29F4DF"
+					title: " M  大地图"
+					type: "checkmark"
+				}
+				{
+					id: "470ADCEE9A4B2083"
+					title: " U  路径点"
+					type: "checkmark"
+				}
+				{
+					id: "0A18DAC90F077366"
+					title: " R  查看配方"
+					type: "checkmark"
+				}
+				{
+					id: "2B697C699A72C50A"
+					title: " U  查看合成"
+					type: "checkmark"
+				}
+				{
+					id: "78492057C58E26D9"
+					title: " Shift + 鼠标右键  搬运"
+					type: "checkmark"
+				}
+				{
+					id: "06D10D43CFB4F9C1"
+					title: " B  背包（如果已装备）"
+					type: "checkmark"
+				}
+			]
+			title: "常用按键"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "18775B0B646DD89B"
+			rewards: [{
+				auto: "enabled"
+				id: "67B16D0E59D586BA"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			subtitle: "魔法海螺的任务书"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "20CD4AA0E340F16B"
+				title: "主世界"
+				type: "dimension"
+			}]
+			title: "初始化"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F09749E9EA7C378"]
+			id: "7985248A02EE6F65"
+			rewards: [{
+				id: "0E7DBFEF18884787"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			subtitle: "知识与力量之书，可以获得维度的宝物。"
+			tasks: [{
+				id: "62802EFEFBFD7A08"
+				item: {
+					Count: 1
+					id: "akashictome:tome"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 9s
+							}
+							{
+								id: "minecraft:impaling"
+								lvl: 10s
+							}
+							{
+								id: "minecraft:soul_fire_aspect"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 8s
+							}
+							{
+								id: "apotheosis:capturing"
+								lvl: 7s
+							}
+							{
+								id: "apotheosis:scavenger"
+								lvl: 3s
+							}
+							{
+								id: "ensorcellation:vorpal"
+								lvl: 8s
+							}
+							{
+								id: "ensorcellation:leech"
+								lvl: 8s
+							}
+							{
+								id: "goety:soul_eater"
+								lvl: 9s
+							}
+							{
+								id: "farmersdelight:backstabbing"
+								lvl: 8s
+							}
+							{
+								id: "ensorcellation:frost_aspect"
+								lvl: 5s
+							}
+							{
+								id: "enderio:withering"
+								lvl: 1s
+							}
+							{
+								id: "enderio:xp_boost"
+								lvl: 7s
+							}
+							{
+								id: "ensorcellation:xp_boost"
+								lvl: 8s
+							}
+							{
+								id: "ars_nouveau:reactive"
+								lvl: 8s
+							}
+							{
+								id: "mysticalagriculture:soul_siphoner"
+								lvl: 9s
+							}
+						]
+						RepairCost: 1
+						"akashictome:data": {
+							ad_astra: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "ad_astra:astrodux"
+								}
+							}
+							ae2: {
+								Count: 1b
+								id: "ae2:guide"
+							}
+							aether: {
+								Count: 1b
+								id: "aether:book_of_lore"
+							}
+							alexscaves: {
+								Count: 1b
+								id: "alexscaves:cave_book"
+							}
+							alexsmobs: {
+								Count: 1b
+								id: "alexsmobs:animal_dictionary"
+							}
+							apotheosis: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+							ars_nouveau: {
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
+							}
+							betterend: {
+								Count: 1b
+								id: "betterend:guidebook"
+							}
+							botania: {
+								Count: 1b
+								id: "botania:lexicon"
+							}
+							edenring: {
+								Count: 1b
+								id: "edenring:guide_book"
+							}
+							enigmaticlegacy: {
+								Count: 1b
+								id: "enigmaticlegacy:the_acknowledgment"
+							}
+							extendedcrafting: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "extendedcrafting:guide"
+								}
+							}
+							ftbquests: {
+								Count: 1b
+								id: "ftbquests:book"
+							}
+							goety: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "goety:witches_brew"
+								}
+							}
+							goety_0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:definedMod": "goety_0"
+									"patchouli:book": "goety:black_book"
+								}
+							}
+							immersiveengineering: {
+								Count: 1b
+								id: "immersiveengineering:manual"
+							}
+							irons_spellbooks: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"Iron's Guidebook\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"Iron's Guidebook\"}]}"
+									}
+									"patchouli:book": "irons_spellbooks:iss_guide_book"
+								}
+							}
+							mysticalagriculture: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "mysticalagriculture:guide"
+								}
+							}
+							occultism: {
+								Count: 1b
+								id: "occultism:dictionary_of_spirits"
+								tag: {
+									"modonomicon:book_id": "occultism:dictionary_of_spirits"
+								}
+							}
+							patchouli: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+								}
+							}
+							pneumaticcraft: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							}
+							productivebees: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"Big Book of Bees\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"Big Book of Bees\"}]}"
+									}
+									"patchouli:book": "productivebees:guide"
+								}
+							}
+							solcarrot: {
+								Count: 1b
+								id: "solcarrot:food_book"
+							}
+							techreborn: {
+								Count: 1b
+								id: "techreborn:manual"
+							}
+							thermal: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							touhou_little_maid: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+								}
+							}
+						}
+						"akashictome:is_morphing": 1b
+						display: {
+							Name: "{\"text\":\"芝士宝典\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "“第一个任务”"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["467A5E324944AB2D"]
+			id: "6BBACCAE0574C13D"
+			rewards: [{
+				count: 16
+				id: "43448BAFFB122B71"
+				item: "delightful:cheeseburger"
+				type: "item"
+			}]
+			subtitle: "Roughly Enough Items"
+			tasks: [
+				{
+					id: "6AFE020577FD398D"
+					title: "在物品栏下方的输入框输入物品名来搜索。"
+					type: "checkmark"
+				}
+				{
+					id: "3E9AECB3647118A5"
+					title: "中文名称的物品可以通过拼音搜索。"
+					type: "checkmark"
+				}
+				{
+					id: "3DB8F6B0BF037C41"
+					title: "搜索特定模组的物品，需要输入@模组名 物品名。"
+					type: "checkmark"
+				}
+				{
+					id: "1C283206B2D4EF24"
+					title: "在合成表内鼠标左键查看配方，鼠标右键查看合成。"
+					type: "checkmark"
+				}
+				{
+					id: "25DBED3D17AB51D8"
+					title: "配方上方是配方类别，左边是制作这个配方的物品。"
+					type: "checkmark"
+				}
+				{
+					id: "291B7605912A7A53"
+					title: "首个配方不一定是最优的，多查看其他配方类别。"
+					type: "checkmark"
+				}
+			]
+			title: "REI物品管理器"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BBACCAE0574C13D"]
+			id: "4C2BFF63A8C61C2D"
+			rewards: [{
+				count: 16
+				id: "0A5D0D07A3AE0754"
+				item: "youkaishomecoming:miso_soup"
+				type: "item"
+			}]
+			subtitle: "组队、任务、领地"
+			tasks: [
+				{
+					id: "660192F0E2D722AB"
+					title: "在物品栏左上角查看FTB团队、任务、区块。"
+					type: "checkmark"
+				}
+				{
+					id: "5750D9ADBC6CED8C"
+					title: "在 FTB Quests 中，可以和队友同步任务进度。"
+					type: "checkmark"
+				}
+				{
+					id: "399602807DB01E03"
+					title: "在 FTB Chunks 中，可以和团队成员共享认领的区块，而无需其他白名单操作。"
+					type: "checkmark"
+				}
+				{
+					id: "3BB76637447A8C62"
+					title: "与 FTB Ranks 配合 可灵活配置团队及相关权限。"
+					type: "checkmark"
+				}
+				{
+					id: "783692A2A4058962"
+					title: "玩家可在自己所在的团队内部发言，而不被别人窥探。"
+					type: "checkmark"
+				}
+				{
+					id: "6D3DEE5B458D2502"
+					title: "点击“已认领区块”按钮，然后在地图上左键或右键单击选择将属于你的区块。"
+					type: "checkmark"
+				}
+				{
+					id: "12846924AD827D6C"
+					title: "在已认领的区块上 Shift + 左键或右键单击可以切换强制加载。"
+					type: "checkmark"
+				}
+			]
+			title: "FTB组件"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "62FD6D45E3C66DAC"
+			rewards: [{
+				command: "gamerule keepInventory true"
+				id: "4CF78C7112B832A3"
+				type: "command"
+			}]
+			subtitle: "♿♿♿♿"
+			tasks: [{
+				id: "421A791BC8447C17"
+				title: "死亡后保留物品栏"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C2BFF63A8C61C2D"]
+			id: "4F09749E9EA7C378"
+			rewards: [{
+				id: "55C91107CC1929EA"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "魔法海螺会告诉你怎么做。"
+			tasks: [{
+				id: "651066A82CBC3761"
+				title: "我准备好了！"
+				type: "checkmark"
+			}]
+			title: "谁准备好了？"
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["欢迎"]
+	title: "开始"
+}

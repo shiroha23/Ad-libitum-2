@@ -1,0 +1,1004 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "27CCCFE7BE4443F0"
+	group: ""
+	icon: {
+		Count: 1
+		id: "mekanismtools:iron_paxel"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "27CCCFE7BE4443F0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "7EC0B0ADE3EC18CC"
+			rewards: [{
+				id: "610AEC4D29C1FD41"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6835A261548314EA"
+					item: "enchantinginfuser:enchanting_infuser"
+					type: "item"
+				}
+				{
+					id: "7C7D45CF4C6F35A9"
+					item: "enchantinginfuser:advanced_enchanting_infuser"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "3891EE13E8CF370D"
+			rewards: [{
+				id: "0FA7B676598AFD0D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20C45A7831B8860B"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: {
+						storedTime: 140
+						totalAccumulatedTime: 140
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "75BDB18CB697AA57"
+			rewards: [{
+				id: "19E4B646AB4E4186"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "15068797220C01BE"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C979EB365AA6DA7"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "2D4F4BBFB8F09147"
+			rewards: [{
+				id: "3A98B7EF3828BE3C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "224B75BC5F3E7658"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "4A81400BE724BA53"
+			rewards: [{
+				id: "1EBE973E31AC7C1F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7358830D4471886A"
+					item: {
+						Count: 1
+						id: "toolbelt:belt"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2AB4894840E4287D"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "4B6BA85AAC4CC7B2"
+			rewards: [{
+				id: "39EBDDDA28999111"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55F2356549A18A94"
+				item: "extendedcrafting:handheld_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "3C3220DDC8F21B57"
+			rewards: [{
+				id: "4E087D7F6232BB49"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37DDDABE56AB21ED"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "0806A8D354589DB2"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "2BCDAB8F2D468BF9"
+			rewards: [{
+				id: "10477D998BE45A0B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "“那我问你”"
+			tasks: [{
+				id: "0F767EE3E93854C3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/paxels"
+					}
+				}
+				title: "镐尖斧"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "77DC4773BD24136C"
+			rewards: [{
+				id: "23913912C23824B6"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "032EA35C67CDBD40"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "glassential"
+					}
+				}
+				title: "精致玻璃"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "0599A9C8DD3B1062"
+			rewards: [{
+				id: "32CBB1A516A58EBF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5281D804C58B08DE"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "torchmaster"
+					}
+				}
+				title: "火炬大师"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "00E9457EC5EFA113"
+			rewards: [{
+				id: "2B1782BFA491F752"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "008AFF951436A7B7"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "constructionwand"
+					}
+				}
+				title: "建筑手杖"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "0AC456FC10F4E4C1"
+			rewards: [{
+				id: "2BBB15A16B555A78"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02B31CCC7A0A8CAE"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "elevatorid"
+					}
+				}
+				title: "开放式电梯"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "7C2B632F9270F6A2"
+			rewards: [{
+				id: "59E2A1FB23622774"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12EED7AA4D05545D"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "comforts"
+					}
+				}
+				title: "舒适用品"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "1ED33D0B1F46F749"
+			rewards: [{
+				id: "6AC2E2C520F566AF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72C271F92EF22186"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "ironfurnaces"
+					}
+				}
+				title: "更多熔炉"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "62F4E72C2FB26DE3"
+			rewards: [{
+				id: "7CD01870952C93FE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "577CB122BDF6ED6E"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "sophisticatedbackpacks"
+					}
+				}
+				type: "item"
+			}]
+			title: "精妙背包"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "4CFE846CDE905B51"
+			rewards: [{
+				id: "0E7EA31DA8AED376"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "177E5594CBD2BE3D"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "enderstorage"
+					}
+				}
+				title: "末影存储"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "42B1994701BC3A29"
+			rewards: [{
+				id: "11DF656AD899A916"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EFF002211F2DA06"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "trashcans"
+					}
+				}
+				title: "垃圾桶"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "4F8363B9439DDE5B"
+			rewards: [{
+				id: "4B71A47C4575CB52"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "105A09D7786176A9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "waystones:waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:sharestone"
+							}
+							{
+								Count: 1b
+								id: "waystones:warp_plate"
+							}
+							{
+								Count: 1b
+								id: "waystones:portstone"
+							}
+							{
+								Count: 1b
+								id: "waystones:return_scroll"
+							}
+							{
+								Count: 1b
+								id: "waystones:bound_scroll"
+							}
+							{
+								Count: 1b
+								id: "waystones:warp_scroll"
+							}
+						]
+					}
+				}
+				title: "传送石碑"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "682BB8F066050DB3"
+			rewards: [{
+				id: "4F7AAA52B0CDB32B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74CE57D8FA9B4ABF"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "buildinggadgets2"
+					}
+				}
+				title: "建筑小帮手"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "020BD9C8059579D2"
+			rewards: [{
+				id: "3BD22701421E7613"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "431667FD1AD5CD27"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:id_regex"
+									tag: {
+										value: "sophisticatedstorage:barrel"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:id_regex"
+									tag: {
+										value: "sophisticatedstorage:limited_barrel_1"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:id_regex"
+									tag: {
+										value: "sophisticatedstorage:chest"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:id_regex"
+									tag: {
+										value: "sophisticatedstorage:shulker_box"
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:basic_tier_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+								}
+							]
+						}
+					}
+					title: "基础升级"
+					type: "item"
+				}
+				{
+					id: "0A5E4D04142B5DC8"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "sophisticatedstorage:copper"
+						}
+					}
+					optional_task: true
+					title: "铜升级"
+					type: "item"
+				}
+				{
+					id: "28DF3F5656D3F3A8"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "sophisticatedstorage:iron"
+						}
+					}
+					optional_task: true
+					title: "铁升级"
+					type: "item"
+				}
+				{
+					id: "10E19FFF405E56B2"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "sophisticatedstorage:gold"
+						}
+					}
+					optional_task: true
+					title: "金升级"
+					type: "item"
+				}
+				{
+					id: "465343A576254E0E"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "sophisticatedstorage:diamond"
+						}
+					}
+					optional_task: true
+					title: "钻石升级"
+					type: "item"
+				}
+				{
+					id: "6DC2F7E39F3EA747"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "sophisticatedstorage:netherite"
+						}
+					}
+					optional_task: true
+					title: "下界合金升级"
+					type: "item"
+				}
+				{
+					id: "4574F21C05263C97"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:or"
+									tag: {
+										items: [
+											{
+												Count: 1b
+												id: "sophisticatedstorage:pickup_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:advanced_pickup_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:filter_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:advanced_filter_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:magnet_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:advanced_magnet_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:feeding_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:advanced_feeding_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:compacting_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:advanced_compacting_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:void_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:advanced_void_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:smelting_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:auto_smelting_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:smoking_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:auto_smoking_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:blasting_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:auto_blasting_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:crafting_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:stonecutter_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:stack_upgrade_tier_1"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:stack_upgrade_tier_2"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:stack_upgrade_tier_3"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:stack_upgrade_tier_4"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:jukebox_upgrade"
+											}
+											{
+												Count: 1b
+												id: "sophisticatedstorage:pump_upgrade"
+											}
+										]
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:advanced_pump_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:xp_pump_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:compression_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:hopper_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:advanced_hopper_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:upgrade_base"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:chipped/botanist_workbench_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:chipped/glassblower_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:chipped/carpenters_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:chipped/loom_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:chipped/mason_table_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:chipped/alchemy_bench_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:chipped/tinkering_table_upgrade"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "模块升级"
+					type: "item"
+				}
+				{
+					id: "1BA64B316C3D6B06"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedstorage:controller"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:storage_link"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:storage_io"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:storage_input"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:storage_output"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:packing_tape"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:storage_tool"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "存储工具"
+					type: "item"
+				}
+			]
+			title: "精妙存储"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "675A995F043DFAE2"
+			rewards: [{
+				id: "290CC61ED8D13136"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A3C9C1E887DE5CD"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "mob_grinding_utils"
+					}
+				}
+				title: "刷怪塔实用设备"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+	]
+	title: "实用"
+}

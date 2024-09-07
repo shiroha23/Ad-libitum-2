@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6C466EBEFD8D0B4A"
+	group: "5C39A77F4B0C1142"
+	id: "6C466EBEFD8D0B4A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C86182157F59D49"]
+			id: "21F31FC24B5C88C9"
+			tasks: [{
+				id: "368C78705B9801A2"
+				item: "occultism:magic_lamp_empty"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "7D68EFB212F8662F"
+			tasks: [{
+				id: "18E57C1C5642DD08"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["596481A0E40DF1DC"]
+			id: "418C4290CF365FB9"
+			tasks: [{
+				id: "717D735487CEE901"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "5AB4DE5A30D1F5FB"
+			tasks: [{
+				id: "0AEDAC373A608BF2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:personal_storage"
+					}
+				}
+				title: "Any #mekanism:personal_storage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5AB4DE5A30D1F5FB"]
+			id: "596481A0E40DF1DC"
+			tasks: [{
+				id: "00F707088EFA5405"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	title: "无中生有"
+}

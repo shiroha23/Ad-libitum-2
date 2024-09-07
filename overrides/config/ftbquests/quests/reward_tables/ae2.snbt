@@ -1,0 +1,35 @@
+{
+	id: "315C6AF886251271"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ae2"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 64, item: "minecraft:redstone" }
+		{ count: 64, item: "minecraft:quartz" }
+		{ count: 64, item: "ae2:certus_quartz_crystal" }
+		{ count: 24, item: "ad_astra:desh_ingot" }
+		{ count: 16, item: "ad_astra:ostrum_ingot" }
+		{ count: 8, item: "ad_astra:calorite_ingot" }
+		{ count: 64, item: "minecraft:coal" }
+		{ count: 32, item: "minecraft:iron_ingot" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ae2"
+				}
+			}
+		}
+	]
+	title: "ae2"
+}

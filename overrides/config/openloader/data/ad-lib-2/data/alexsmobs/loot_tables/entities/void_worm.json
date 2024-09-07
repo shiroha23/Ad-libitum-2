@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "name": "eye",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "name": "alexsmobs:void_worm_eye"
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ],
+          "name": "alexsmobs:void_worm_mandible"
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "name": "enigmaticlegacy:eye_of_nebula"
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.14,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 
+              {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "name": "enigmaticlegacy:etherium_ore"
+        }
+      ]
+    }
+  ]
+}

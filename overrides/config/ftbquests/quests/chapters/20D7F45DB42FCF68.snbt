@@ -1,0 +1,1025 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20D7F45DB42FCF68"
+	group: "328D59D61271B5A9"
+	icon: "ae2:controller"
+	id: "20D7F45DB42FCF68"
+	order_index: 1
+	quest_links: [{
+		id: "2FB9D39A62BE1328"
+		linked_quest: "271DDB67E4D8F1A4"
+		x: 8.0d
+		y: -4.0d
+	}]
+	quests: [
+		{
+			id: "24B82C248DE190DB"
+			rewards: [{
+				id: "57CE91CA2D9FA4D3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73A1E25772B90CCD"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24B82C248DE190DB"]
+			id: "24707CEB5D5403BD"
+			rewards: [{
+				id: "5306A16BB85AB9DC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C0EB399C9A7B9B9"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24707CEB5D5403BD"]
+			id: "1BA4C131BA565413"
+			rewards: [{
+				id: "7E906F662AA5BF70"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DD14272DA3080E3"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0926A90A9620DDCA"]
+			hide_dependency_lines: true
+			id: "0503C29F96546042"
+			rewards: [{
+				id: "50DB5C64E2914586"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F503B78CC86505B"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BA4C131BA565413"]
+			id: "3F191F4B0BFE8255"
+			rewards: [{
+				id: "731E817A323E9A1F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BF7493671C0CD93"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F191F4B0BFE8255"]
+			id: "0AE879D016294F19"
+			rewards: [{
+				id: "64D1A31C3D5FB786"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7519029B4B91A4FE"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C475FAAE0D46D36"]
+			id: "5F9D47370F6ACF25"
+			rewards: [{
+				id: "3A0223EF51383BCC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5600A7BF1D2D0655"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F9D47370F6ACF25"]
+			id: "0BEDEFCE995C5CDA"
+			rewards: [{
+				id: "015B9D8A3C89D034"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F7D957F2DC0A3F1"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7108E130764B2C4B"]
+			id: "21D897F574B39810"
+			rewards: [{
+				id: "77D124E247516401"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C757217E7FC331E"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "5265376513D505CC"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53EEF042AD185004"]
+			id: "0EE40D2F88E49506"
+			rewards: [{
+				id: "4518CFBA85A0F86E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "6D7EFFA22F2C9CB8"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "7BCB7038B9E0AF2D"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			title: "量子环"
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FA89D85235E584F"]
+			hide_dependency_lines: true
+			id: "53EEF042AD185004"
+			rewards: [{
+				id: "4E47503BE9C89371"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22D23BD5ECAC7768"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "19F2B504FF82AABD"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "01B81A7B8FAEC901"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1EE8D9285D8C6A1E"]
+			hide_dependency_lines: true
+			id: "4B36BF91DEC3AF3E"
+			rewards: [{
+				id: "43FF13855C3251F3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F4F084127B87C45"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "3BC4F1FE7E4E3DE5"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EE8D9285D8C6A1E"]
+			id: "0FA89D85235E584F"
+			rewards: [{
+				id: "27D9BDB19A99A9B3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "104E4F81F8F01E15"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:cell_component_1k"
+							}
+							{
+								Count: 1b
+								id: "ae2:cell_component_4k"
+							}
+							{
+								Count: 1b
+								id: "ae2:cell_component_16k"
+							}
+							{
+								Count: 1b
+								id: "ae2:cell_component_64k"
+							}
+							{
+								Count: 1b
+								id: "ae2:cell_component_256k"
+							}
+						]
+					}
+				}
+				title: "ME存储组件"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FA89D85235E584F"]
+			id: "00B72180989F4A0C"
+			rewards: [{
+				id: "660644E50EDA2DDF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "019595949B1DFBD2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_256k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "ME存储元件"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EE8D9285D8C6A1E"]
+			hide_dependency_lines: true
+			id: "2C0B6D24461ED333"
+			rewards: [{
+				id: "3CA5283BCF3F8069"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "329D0EBCF850AC00"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:redstone_card"
+							}
+							{
+								Count: 1b
+								id: "ae2:capacity_card"
+							}
+							{
+								Count: 1b
+								id: "ae2:void_card"
+							}
+							{
+								Count: 1b
+								id: "ae2:crafting_card"
+							}
+							{
+								Count: 1b
+								id: "ae2:fuzzy_card"
+							}
+							{
+								Count: 1b
+								id: "ae2:speed_card"
+							}
+							{
+								Count: 1b
+								id: "ae2:inverter_card"
+							}
+							{
+								Count: 1b
+								id: "ae2:equal_distribution_card"
+							}
+							{
+								Count: 1b
+								id: "ae2:energy_card"
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:magnet_card"
+							}
+							{
+								Count: 1b
+								id: "ae2wtlib:quantum_bridge_card"
+							}
+						]
+					}
+				}
+				title: "升级卡"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5947E48FD0B94C11"]
+			id: "7108E130764B2C4B"
+			rewards: [{
+				id: "5154867EADABD175"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12C7FC331C6AC197"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "ae2wtlib"
+					}
+				}
+				title: "AE2无线终端"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AE879D016294F19"]
+			id: "5947E48FD0B94C11"
+			rewards: [{
+				id: "1641BFF1C427D03B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21D0B12DDE115828"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:crafting_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:pattern_encoding_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:pattern_access_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:wireless_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:wireless_crafting_terminal"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "ME终端"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BEDEFCE995C5CDA"]
+			id: "206B1AC2B8A80BD4"
+			rewards: [{
+				id: "31B5DEE4DC555644"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5010CB90D60035C6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:1k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:4k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:16k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:64k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:256k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:crafting_accelerator"
+							}
+							{
+								Count: 1b
+								id: "ae2:crafting_monitor"
+							}
+							{
+								Count: 1b
+								id: "ae2:crafting_unit"
+							}
+						]
+					}
+				}
+				title: "合成CPU"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"271DDB67E4D8F1A4"
+				"0926A90A9620DDCA"
+			]
+			id: "6EAEE6FD87BCC590"
+			rewards: [{
+				id: "6CCF7D990AF58012"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33E8D398D3B52F7F"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "ae2:printed"
+					}
+				}
+				title: "电路板"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6EAEE6FD87BCC590"]
+			id: "1EE8D9285D8C6A1E"
+			rewards: [{
+				id: "21552617FF1EE856"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75EBAFFDC341CF3A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:logic_processor"
+							}
+							{
+								Count: 1b
+								id: "ae2:calculation_processor"
+							}
+							{
+								Count: 1b
+								id: "ae2:engineering_processor"
+							}
+						]
+					}
+				}
+				title: " 处理器"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F191F4B0BFE8255"]
+			id: "3C475FAAE0D46D36"
+			rewards: [{
+				id: "044ACF02E2DC708C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5ADFACA52FD19C40"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:quartz_fiber"
+								}
+								{
+									Count: 1b
+									id: "ae2:fluix_glass_cable"
+								}
+								{
+									Count: 1b
+									id: "ae2:fluix_covered_cable"
+								}
+								{
+									Count: 1b
+									id: "ae2:fluix_covered_dense_cable"
+								}
+								{
+									Count: 1b
+									id: "ae2:fluix_smart_cable"
+								}
+								{
+									Count: 1b
+									id: "ae2:fluix_smart_dense_cable"
+								}
+								{
+									Count: 1b
+									id: "ae2:cable_anchor"
+								}
+							]
+						}
+					}
+					title: "线缆"
+					type: "item"
+				}
+				{
+					id: "08B1191E5BBC02C9"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "ae2:facade"
+						}
+					}
+					title: "伪装板"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24707CEB5D5403BD"]
+			id: "7760FFBBC63DE095"
+			tasks: [{
+				id: "6AE462EDD8697551"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5815F88701C9EBFE"]
+			hide_dependency_lines: true
+			id: "11758181A9215037"
+			rewards: [{
+				id: "68B70A90B79FD9F5"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70512DAFAAA0747D"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B36BF91DEC3AF3E"]
+			id: "5815F88701C9EBFE"
+			rewards: [{
+				id: "403466E8292DB070"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A2409DFF1C9059E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:spatial_cell_component_2"
+							}
+							{
+								Count: 1b
+								id: "ae2:spatial_cell_component_16"
+							}
+							{
+								Count: 1b
+								id: "ae2:spatial_cell_component_128"
+							}
+						]
+					}
+				}
+				title: "空间组件"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5815F88701C9EBFE"]
+			id: "1D2DB53E2F7CAD94"
+			rewards: [{
+				id: "1633C94DB4734425"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "386CBB184BD3DFA5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:spatial_storage_cell_2"
+							}
+							{
+								Count: 1b
+								id: "ae2:spatial_storage_cell_16"
+							}
+							{
+								Count: 1b
+								id: "ae2:spatial_storage_cell_128"
+							}
+						]
+					}
+				}
+				title: "空间元件"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0926A90A9620DDCA"]
+			hide_dependency_lines: true
+			id: "0B3F65ED08CBD9CD"
+			rewards: [{
+				id: "512FDAFC4D06DDC3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08AF39CCCB87B06B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_wrench"
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_cutting_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:entropy_manipulator"
+							}
+							{
+								Count: 1b
+								id: "ae2:color_applicator"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:matter_cannon"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "实用工具"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7760FFBBC63DE095"]
+			id: "0926A90A9620DDCA"
+			rewards: [{
+				id: "5847DD448A55A5E2"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "ae2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7CDC24CADA3223B5"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "1CC85CAA8602F958"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "353CA664689429CD"
+					item: "enderio:silicon"
+					type: "item"
+				}
+			]
+			title: "常用材料"
+			x: 6.0d
+			y: -2.0d
+		}
+	]
+	title: "应用与能源2"
+}

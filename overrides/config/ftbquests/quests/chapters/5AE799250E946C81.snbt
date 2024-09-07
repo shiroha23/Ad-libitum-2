@@ -1,0 +1,121 @@
+{
+	autofocus_id: "6378D78FE2697566"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5AE799250E946C81"
+	group: "328D59D61271B5A9"
+	id: "5AE799250E946C81"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["35E66D8E1C65C807"]
+			hide_dependency_lines: true
+			id: "57FBB56B1F944432"
+			rewards: [{
+				id: "7F406F14AD585B88"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "存储讲台可以扩展，30格以内的子讲台可以和仓库一样绑定到主讲台上，子讲台拥有主讲台的所有功能，但是不能再绑定仓库和书龙。放置在讲台附近的未绑定容器内的物品会被自动输入到讲台中。"
+			tasks: [{
+				id: "402EF7F30D43E991"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57FBB56B1F944432"]
+			id: "178DE3D32EE21AEF"
+			rewards: [{
+				id: "3DBA483626781EAD"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "首先需要召唤出书龙护符：举行启蒙仪式，并且将书与笔作为额外物品投入，再准备好魔源罐，就可以获得书龙护符。用书龙护符对存储讲台右键，将书龙添加到存储核心，每一个书龙都会让存储核心能绑定的容器上限+1。"
+			tasks: [{
+				id: "338B8581E47E3AB7"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["178DE3D32EE21AEF"]
+			id: "563B4F22B29AD69B"
+			rewards: [{
+				id: "21FF8BF5E9A49B85"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "使用支配之杖将30格以内的容器链接到存储讲台，此处推荐使用mod自带的仓库，因为仓库可以被命名，命名后在存储讲台处可以按仓库名称过滤物品"
+			tasks: [{
+				id: "023494C5DD204C8D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F791E83A17629D0"]
+			id: "4E3BEFBA48AE1177"
+			rewards: [{
+				id: "417AD03B96EF2DFF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "68AE44B0497BC23E"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "魔法"
+}

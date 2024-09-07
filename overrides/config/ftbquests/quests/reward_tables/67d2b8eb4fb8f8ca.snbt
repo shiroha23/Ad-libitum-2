@@ -1,0 +1,78 @@
+{
+	id: "67D2B8EB4FB8F8CA"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "1"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 64, item: "minecraft:coal" }
+		{ count: 64, item: "minecraft:copper_ingot" }
+		{ count: 32, item: "minecraft:iron_ingot" }
+		{ count: 64, item: "minecraft:redstone" }
+		{ count: 64, item: "minecraft:amethyst_shard" }
+		{ count: 32, item: "minecraft:lapis_lazuli" }
+		{ count: 16, item: "minecraft:gold_ingot" }
+		{ count: 8, item: "minecraft:diamond" }
+		{ count: 16, item: "minecraft:emerald" }
+		{ count: 64, item: "minecraft:quartz" }
+		{ item: "minecraft:netherite_ingot" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					RepairCost: 0
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+					display: {
+						Name: "{\"text\":\"附魔书（时运3）\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					RepairCost: 0
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 3s
+					}]
+					display: {
+						Name: "{\"text\":\"附魔书（抢夺3）\"}"
+					}
+				}
+			}
+		}
+		{ count: 32, item: "minecraft:bone" }
+		{ count: 32, item: "minecraft:leather" }
+		{ count: 16, item: "minecraft:blaze_powder" }
+		{ count: 8, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "youkaishomecoming:sakura_honey_tea" }
+		{ count: 16, item: "delightful:cheeseburger" }
+		{ count: 16, item: "youkaishomecoming:miso_soup" }
+		{ count: 64, item: "minecraft:string" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "1"
+				}
+			}
+		}
+	]
+	title: "一般"
+}

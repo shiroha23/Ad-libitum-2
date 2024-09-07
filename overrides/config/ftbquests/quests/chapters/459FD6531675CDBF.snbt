@@ -1,0 +1,260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "459FD6531675CDBF"
+	group: "5221DFB0D5EDCAFF"
+	icon: "biggerreactors:reactor_terminal"
+	id: "459FD6531675CDBF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			id: "6BBDB7839C6E7DAE"
+			tasks: [{
+				id: "56CD79BC09E6B930"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "0B6DF92E45BC7DC8"
+			subtitle: "MEK裂变"
+			tasks: [{
+				id: "12CB25AFA520408C"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "5200FBA138D3B228"
+			tasks: [{
+				id: "1F1221B68A5F3440"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6BBDB7839C6E7DAE"
+				"0B6DF92E45BC7DC8"
+				"5200FBA138D3B228"
+			]
+			id: "655E5439375E27A6"
+			tasks: [{
+				id: "4F33EE9147C85CE3"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"655E5439375E27A6"
+				"6A892951B70245EE"
+			]
+			id: "028D476CC7BD71A3"
+			tasks: [{
+				id: "66B3271719BB47CC"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["028D476CC7BD71A3"]
+			id: "40F690B1861E0994"
+			tasks: [{
+				id: "1610183CDB740D38"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40F690B1861E0994"]
+			id: "0C58856C9A0D1E11"
+			tasks: [
+				{
+					id: "69334E373CB0E2CB"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "7540D2D3BB3F5965"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "01B834AC5C1D84A4"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "164C5269B213BA5D"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "38FC3200193DD720"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6A892951B70245EE"
+			tasks: [{
+				id: "3BF76240FCC8C0E6"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "479B0DD2CC214635"
+			tasks: [{
+				id: "6F8C616631FBBA1C"
+				title: "MEK涡轮"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "66221CF859A25238"
+			tasks: [{
+				id: "47033DAF998DBB69"
+				title: "Bigger Reactors涡轮机"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			id: "627B2DB1C4527D11"
+			subtitle: "Bigger Reactors 反应堆"
+			tasks: [
+				{
+					count: 2L
+					id: "26F3B45E95AAF0E9"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "5E3338F383A590BF"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "0801E23D4E695154"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "04334F030923C6FA"
+					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "29343BAE7AF7F902"
+					item: { Count: 3, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "40DD12B166D49CB9"
+					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "10D6BB0B89867934"
+					item: { Count: 4, id: "immersiveengineering:wooden_barrel" }
+					type: "item"
+				}
+			]
+			title: "工业挤压机"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["627B2DB1C4527D11"]
+			id: "36847C6C3A42D15B"
+			tasks: [
+				{
+					id: "597CA1CE7A947050"
+					item: "immersiveengineering:dust_hop_graphite"
+					type: "item"
+				}
+				{
+					id: "36AE68609EA60296"
+					item: "immersiveengineering:ingot_hop_graphite"
+					type: "item"
+				}
+				{
+					id: "678CDC715DA3CE28"
+					item: "biggerreactors:graphite_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36847C6C3A42D15B"]
+			id: "37F7261FE5CAC924"
+			tasks: [
+				{
+					id: "23B0D4A8B08372EB"
+					item: "biggerreactors:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "7358B105CE9752AF"
+					item: "biggerreactors:reactor_terminal"
+					type: "item"
+				}
+				{
+					id: "7384264D24283FCC"
+					item: "biggerreactors:reactor_control_rod"
+					type: "item"
+				}
+				{
+					id: "2DB34D2507EBB885"
+					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
+				}
+				{
+					id: "2C6208B8181148C2"
+					item: "biggerreactors:reactor_access_port"
+					type: "item"
+				}
+				{
+					id: "20818B30CC1BBD15"
+					item: "biggerreactors:reactor_power_tap"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+	]
+	title: "核电"
+}

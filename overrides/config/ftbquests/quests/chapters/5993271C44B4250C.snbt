@@ -1,0 +1,835 @@
+{
+	autofocus_id: "1DF1E8615AAF8184"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5993271C44B4250C"
+	group: "6DB4BF959ECD85D6"
+	icon: "botania:apothecary_default"
+	id: "5993271C44B4250C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79AB761ED9F9019F"]
+			id: "072BFBB5C7A85E03"
+			rewards: [{
+				id: "1C263F1C0DDC082A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E7244D33B7CD050"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7275EC42A7759832"]
+			id: "79AB761ED9F9019F"
+			rewards: [{
+				id: "0669CA7A0CC7D790"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "551CC182A78D4887"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1673CF7867FCD1DA"]
+			id: "00DC6817035BACBB"
+			rewards: [{
+				id: "41D2A4E7F4B59FDF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19DF1A89A1FF3214"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["308D49D27A299411"]
+			id: "6A2ED57C43696E85"
+			rewards: [{
+				id: "4D2C3CDACCF99122"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73D16F7324D01C60"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					id: "34F066DD50A94610"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1673CF7867FCD1DA"]
+			id: "2DA8E6118B23B395"
+			rewards: [{
+				id: "6CAF27A602C2813C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06D3A3A9332C13C9"
+					item: "botania:mana_tablet"
+					type: "item"
+				}
+				{
+					id: "2F519CE0EC8701F1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:mana_ring"
+								}
+								{
+									Count: 1b
+									id: "botania:mana_ring_greater"
+								}
+								{
+									Count: 1b
+									id: "mythicbotany:mana_ring_greatest"
+								}
+							]
+						}
+					}
+					title: "魔力之戒"
+					type: "item"
+				}
+			]
+			title: "魔力储存"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79AB761ED9F9019F"]
+			hide_dependency_lines: true
+			id: "7F1BC65BBF0E3F54"
+			rewards: [{
+				id: "1A650EB36485994F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F3495AA66176C45"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0DD70574EFCB71D8"
+				"64F3B8A7A1AA0C57"
+				"7F1BC65BBF0E3F54"
+			]
+			id: "1673CF7867FCD1DA"
+			rewards: [{
+				id: "6D3CEF5A67121DEE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "220569CAA5DB9576"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "32AA376FDAE83034"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "72CD9DB81BFCFE41"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2716FEDBE85BB180"]
+			hide_dependency_lines: true
+			id: "009071B358547B6F"
+			rewards: [{
+				id: "0964A9D8325A0DCD"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "71CCD95996ABB9CE"
+					item: { Count: 8, id: "botania:livingwood" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "48E5D4FDAB3B4BEF"
+					item: { Count: 3, id: "botania:glimmering_livingwood" }
+					type: "item"
+				}
+				{
+					id: "6905C20B7CD4C476"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3DDAAEFEFA62E546"
+					item: { Count: 2, id: "botania:mana_pool" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "796B658021BBA9A5"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+			]
+			title: "精灵门"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["009071B358547B6F"]
+			id: "3F697CD6C37E6461"
+			rewards: [{
+				id: "68A41DFC4EFF69A8"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "54DD200E5DEA2255"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "1A68C0A07B43AC3E"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+				{
+					id: "10D6089CFEBA745C"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["072BFBB5C7A85E03"]
+			id: "1326A32CCC298DF3"
+			rewards: [{
+				id: "107AC9F4C173158B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E910153447AA684"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "6B28667D8187A2CD"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "活木活石"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00DC6817035BACBB"]
+			id: "308D49D27A299411"
+			rewards: [{
+				id: "70972A37EF425D90"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C7895058992635A"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "557B8BD40BB2A2F5"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "2FDD61A3185E9B89"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					id: "34ACE1C5AB63DD9A"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "3A93483B5E5AE477"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1326A32CCC298DF3"]
+			id: "64F3B8A7A1AA0C57"
+			rewards: [{
+				id: "1AE0962094839148"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17729F877C3CB3EE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:mana_pool"
+							}
+							{
+								Count: 1b
+								id: "botania:diluted_pool"
+							}
+							{
+								Count: 1b
+								id: "botania:fabulous_pool"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "魔力池"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1326A32CCC298DF3"]
+			id: "0DD70574EFCB71D8"
+			rewards: [{
+				id: "049874B309F7DCF1"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27FD89D2F978EC9B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:mana_spreader"
+							}
+							{
+								Count: 1b
+								id: "botania:redstone_spreader"
+							}
+							{
+								Count: 1b
+								id: "botania:elven_spreader"
+							}
+							{
+								Count: 1b
+								id: "botania:gaia_spreader"
+							}
+						]
+					}
+				}
+				title: "魔力发射器"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A2ED57C43696E85"]
+			id: "2716FEDBE85BB180"
+			rewards: [{
+				id: "29A925A5518A9D42"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E2498F4CA0CC925"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58969194E88DE4D9"]
+			id: "603E37B91B68430A"
+			rewards: [{
+				id: "5E940829A2E5414F"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F16EA87A66B7102"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F697CD6C37E6461"]
+			id: "58969194E88DE4D9"
+			rewards: [{
+				id: "6CAD39C30459C727"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "65B305EA48798195"
+					item: "mythicbotany:mana_infuser"
+					type: "item"
+				}
+				{
+					id: "644066668F22410C"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1326A32CCC298DF3"]
+			id: "1DF1E8615AAF8184"
+			rewards: [{
+				id: "3C290AC5B1E77ABC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F813A8C8FE2485C"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F1BC65BBF0E3F54"]
+			hide_dependency_lines: true
+			id: "46E9A3E0DD7B5E59"
+			rewards: [{
+				id: "4690315F632EF4EC"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD94EEA214588AB"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["603E37B91B68430A"]
+			id: "269620BF2380DA18"
+			rewards: [{
+				id: "507F5EB7CAB6933B"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A3F09C05E720395"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["269620BF2380DA18"]
+			id: "7D354D8F342906FD"
+			rewards: [{
+				id: "44BA902D1B7C6175"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FE511653D7D0C2A"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "14690BC9BAC2F3B8"
+			rewards: [{
+				id: "125FDAC513B621DA"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72D46E9A82802772"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D354D8F342906FD"]
+			id: "5FC99AAA42752DD1"
+			rewards: [{
+				id: "4A94EBD8B496B770"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "210F223AF845D90F"
+					item: "mythicbotany:mana_collector"
+					type: "item"
+				}
+				{
+					id: "368A19DA5079EED8"
+					item: "botania:spark_upgrade_recessive"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D354D8F342906FD"]
+			id: "5F632B046B5C28A9"
+			rewards: [{
+				id: "5DDB439E82679EF5"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71DB5F8183CB16B4"
+				item: {
+					Count: 1
+					id: "botania:dice"
+					tag: {
+						soulbindUUID: ""
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F632B046B5C28A9"]
+			id: "5AAE78D0FCEE5FAA"
+			rewards: [{
+				id: "623C380673E93C10"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "612BE4AFB7CD72BB"
+					item: {
+						Count: 1
+						id: "botania:infinite_fruit"
+						tag: {
+							soulbindUUID: "5db9c610-b8d6-4b50-b7c5-c1afaee9986e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10C60D4EDD145CEB"
+					item: {
+						Count: 1
+						id: "botania:king_key"
+						tag: {
+							soulbindUUID: "5db9c610-b8d6-4b50-b7c5-c1afaee9986e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03E390AA5291EE6C"
+					item: {
+						Count: 1
+						id: "botania:flugel_eye"
+						tag: {
+							soulbindUUID: "5db9c610-b8d6-4b50-b7c5-c1afaee9986e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "311644E995DD6D12"
+					item: {
+						Count: 1
+						id: "botania:thor_ring"
+						tag: {
+							soulbindUUID: "5db9c610-b8d6-4b50-b7c5-c1afaee9986e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "037DBB0AA0D761BF"
+					item: {
+						Count: 1
+						id: "botania:odin_ring"
+						tag: {
+							baubleUUID: [I;
+								2088459981
+								199378543
+								-1995331353
+								72466776
+							]
+							soulbindUUID: "5db9c610-b8d6-4b50-b7c5-c1afaee9986e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18D8E6F67379FEEA"
+					item: {
+						Count: 1
+						id: "botania:loki_ring"
+						tag: {
+							soulbindUUID: "5db9c610-b8d6-4b50-b7c5-c1afaee9986e"
+							xOrigin: 0
+							yOrigin: -2147483648
+							zOrigin: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			id: "7275EC42A7759832"
+			subtitle: "植物魔法 - Botania"
+			tasks: [{
+				id: "2F68F6E57FC49511"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["009071B358547B6F"]
+			id: "1D6BB07EBDDBC109"
+			tasks: [{
+				id: "5E02D70F166762EB"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+	]
+	title: "植物魔法"
+}

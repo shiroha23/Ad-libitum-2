@@ -1,0 +1,14 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.social.SocialInteractionsScreen {
+}
+
+rikka.lanserverproperties.ModifyLanScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+

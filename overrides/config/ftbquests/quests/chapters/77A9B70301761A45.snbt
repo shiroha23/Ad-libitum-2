@@ -1,0 +1,567 @@
+{
+	autofocus_id: "73D7521BDC14A248"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77A9B70301761A45"
+	group: "6DB4BF959ECD85D6"
+	icon: "occultism:pentacle"
+	id: "77A9B70301761A45"
+	order_index: 0
+	quest_links: [
+		{
+			id: "0D93B31B83ECA27E"
+			linked_quest: "2B0A2C601A051178"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "47BBB9F5C6781D87"
+			linked_quest: "21F31FC24B5C88C9"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "542F61064862BCFE"
+			linked_quest: "4E3BEFBA48AE1177"
+			x: 17.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["312F770A5314A137"]
+			id: "566D929E8A40C256"
+			rewards: [{
+				id: "17B59AF175E21B6D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2789F86BB73BE910"
+				item: {
+					Count: 1
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "312F770A5314A137"
+			rewards: [{
+				id: "1B6FACC9C30095AA"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "519D3C681AED0307"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["566D929E8A40C256"]
+			id: "11579042BC137207"
+			rewards: [{
+				id: "1AD28D80F070B0A3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D404611F16A2967"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32B73CEB20C70EE8"]
+			id: "52C9C86F43FC5791"
+			rewards: [{
+				id: "75174ECC39545762"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6320C977B79B0387"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					id: "6C09D1564D1957CB"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_sapling_natural"
+						tag: {
+							isInventoryItem: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "575FB9AC8EC9906F"
+					item: "occultism:otherworld_ashes"
+					type: "item"
+				}
+				{
+					id: "5E4577C946A8EC8D"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+			]
+			title: "基础材料"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C9C86F43FC5791"]
+			id: "261309406F4A2D72"
+			rewards: [{
+				id: "05D5A3B0EDDCD7D4"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F63E914885036A9"
+					item: {
+						Count: 1
+						id: "occultism:butcher_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FFB478D5D71B85D"
+					item: "occultism:tallow"
+					type: "item"
+				}
+				{
+					id: "0B54272018743D0D"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "蜡烛"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["261309406F4A2D72"]
+			id: "2D09DE2A635A1284"
+			rewards: [{
+				id: "0D2F29BB40C095AC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D6ADC5D8B6F2934"
+					item: "occultism:burnt_otherstone"
+					type: "item"
+				}
+				{
+					id: "4B5ED44029643976"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+				{
+					id: "0459D40BE37FDE22"
+					item: {
+						Count: 1
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E90A9519FB355C9"
+					item: "occultism:brush"
+					type: "item"
+				}
+			]
+			title: "白色粉笔"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D09DE2A635A1284"]
+			id: "3F388D15FE26A58E"
+			rewards: [{
+				id: "420F15AED8CA750A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0EF9A5FE10B6564E"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "2630DB22AB4F74AB"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["261309406F4A2D72"]
+			id: "2315BAD1B2C9FE29"
+			rewards: [{
+				id: "12D4B17F6843C689"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "773A9F42E376F2A1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:taboo_book"
+								}
+								{
+									Count: 1b
+									id: "occultism:book_of_binding_empty"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B961C4786D708DD"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:book_of_binding_foliot"
+								}
+								{
+									Count: 1b
+									id: "occultism:book_of_binding_bound_foliot"
+									tag: {
+										spiritName: "Mordellmorn"
+									}
+								}
+								{
+									Count: 1b
+									id: "occultism:book_of_binding_djinni"
+								}
+								{
+									Count: 1b
+									id: "occultism:book_of_binding_bound_djinni"
+									tag: {
+										spiritName: "Ketdellmorne"
+									}
+								}
+								{
+									Count: 1b
+									id: "occultism:book_of_binding_afrit"
+								}
+								{
+									Count: 1b
+									id: "occultism:book_of_binding_marid"
+								}
+								{
+									Count: 1b
+									id: "occultism:book_of_binding_bound_marid"
+									tag: {
+										spiritName: "Cromurzirn"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "绑定之书"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2315BAD1B2C9FE29"]
+			id: "735606C4F3A0084B"
+			optional: true
+			rewards: [{
+				id: "395EC96B4579F584"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00FAC1DB03BD1381"
+				item: {
+					Count: 1
+					id: "occultism:soul_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B0A2C601A051178"]
+			id: "7F791E83A17629D0"
+			rewards: [{
+				id: "0E9F212A301BFE44"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "514D652C0B8E0A47"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "occultism:chalk_red_impure"
+							}
+							{
+								Count: 1b
+								id: "occultism:chalk_gold_impure"
+							}
+							{
+								Count: 1b
+								id: "occultism:chalk_purple_impure"
+							}
+							{
+								Count: 1b
+								id: "occultism:chalk_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "occultism:chalk_purple"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "occultism:chalk_red"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "618CFA16649A0D88"
+			tasks: [{
+				id: "5C1632828FD1DBAA"
+				item: {
+					Count: 1
+					id: "occultism:otherworld_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["618CFA16649A0D88"]
+			id: "29F3E8221AA9415E"
+			tasks: [{
+				id: "79F96DFF3E4610C9"
+				item: {
+					Count: 1
+					id: "occultism:infused_pickaxe"
+					tag: {
+						Damage: 0
+						spiritName: "Reitirlind"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29F3E8221AA9415E"]
+			id: "7955D48B5E5DDFEF"
+			tasks: [{
+				id: "4873328CD980ADC1"
+				item: {
+					Count: 1
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7955D48B5E5DDFEF"]
+			id: "1E5284472210F49F"
+			tasks: [
+				{
+					icon: "occultism:iesnium_ore"
+					id: "2E29C5E2694FE564"
+					observe_type: 0
+					timer: 0L
+					to_observe: "occultism:iesnium_ore"
+					type: "observation"
+				}
+				{
+					id: "645C1D2D98057AEA"
+					item: "occultism:iesnium_ingot"
+					type: "item"
+				}
+			]
+			title: "艾瑟金属"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E5284472210F49F"]
+			id: "6C86182157F59D49"
+			optional: true
+			tasks: [{
+				id: "31911533024609E8"
+				item: {
+					Count: 1
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11579042BC137207"]
+			id: "32B73CEB20C70EE8"
+			rewards: [{
+				id: "19D6C79412A6EEE8"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: "occultism:spirit_fire"
+				id: "5E3C5AFB65AE936E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "73D7521BDC14A248"
+			tasks: [{
+				id: "45A284799006A0F5"
+				type: "custom"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "神秘学"
+}

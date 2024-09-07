@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10DA0E31CC5F1565"
+	group: "5221DFB0D5EDCAFF"
+	icon: "fluxnetworks:flux_core"
+	id: "10DA0E31CC5F1565"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7676FFB751B96D9C"
+			tasks: [{
+				id: "0734CD0A98E4932C"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7676FFB751B96D9C"]
+			id: "7B3A0F41368F7F5F"
+			tasks: [{
+				id: "394F16D7F75DD7B0"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B3A0F41368F7F5F"]
+			id: "5E1627DC93620191"
+			tasks: [{
+				id: "79E651C07F73947C"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E1627DC93620191"]
+			id: "276CFCB42A972D0F"
+			tasks: [{
+				id: "18EE62C8201693DC"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["276CFCB42A972D0F"]
+			id: "4AE804713D6A7B45"
+			tasks: [{
+				id: "0383BDD45F7848BB"
+				item: "fluxnetworks:flux_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AE804713D6A7B45"]
+			id: "727BBFA51B263F05"
+			tasks: [
+				{
+					id: "62871A07D43141D1"
+					item: "fluxnetworks:basic_flux_storage"
+					type: "item"
+				}
+				{
+					id: "7B79507809B4DB61"
+					item: "fluxnetworks:herculean_flux_storage"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "514D701E4AE3DC76"
+					item: "fluxnetworks:gargantuan_flux_storage"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["727BBFA51B263F05"]
+			id: "602D3F9DC55F27E8"
+			tasks: [{
+				id: "0CFCFD13522ED4B5"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C58856C9A0D1E11"]
+			id: "375118033A3B3106"
+			tasks: [{
+				id: "1205388CD64E57C7"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["375118033A3B3106"]
+			id: "17CD8AE140040DB6"
+			tasks: [
+				{
+					id: "73B1772EA0F31C22"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "256F447C989AF285"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "3CCBDE95C09CA8E1"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17CD8AE140040DB6"]
+			id: "0D629786C3E4E7FB"
+			tasks: [{
+				id: "2AB78434E8770854"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D629786C3E4E7FB"]
+			id: "7665032BF499890A"
+			tasks: [{
+				id: "712BDD7BD5E37892"
+				item: "mekanism:module_teleportation_unit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	title: "通量网络"
+}

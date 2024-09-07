@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "name": "block",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:witherite_block",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "disc",
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.1,
+          "looting_multiplier": 0.1
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_the_harbinger",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "block",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:angel_blessing",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "eye",
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.14,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 
+              {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "name": "enigmaticlegacy:etherium_ore"
+        }
+      ]
+    }
+  ]
+}

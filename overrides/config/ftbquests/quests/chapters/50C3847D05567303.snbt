@@ -1,0 +1,377 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "50C3847D05567303"
+	group: ""
+	icon: "minecraft:smithing_table"
+	id: "50C3847D05567303"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3888869EA941C647"]
+			id: "4A556348C0358CC0"
+			tasks: [{
+				id: "3E639F312D7A4471"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E9D17B69FC4B32B"]
+			id: "60300A54504EA2A1"
+			tasks: [{
+				id: "77633F27416597C2"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FC40672E07317B7"]
+			id: "65A5EC19C1B5872B"
+			tasks: [{
+				id: "65552ECB29FAC7F8"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A556348C0358CC0"]
+			id: "3E9D17B69FC4B32B"
+			tasks: [{
+				id: "7D1F89027CBF3D67"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60300A54504EA2A1"]
+			id: "2C560D48DEFBBEE8"
+			tasks: [{
+				id: "73B0518EA203001A"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F7311EDD10F82C5"]
+			id: "03EC123AD1BEE7D8"
+			tasks: [{
+				id: "7D1CC4E25CCB5A5E"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17FD23A05F6659C3"]
+			id: "4D0FB841719F95E9"
+			tasks: [
+				{
+					id: "1F07CDA9034124D1"
+					item: "apotheosis:echoing_sculkshelf"
+					type: "item"
+				}
+				{
+					id: "41E2CBFA9EC295C3"
+					item: "apotheosis:treasure_shelf"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4152205E6789E409"]
+			id: "17FD23A05F6659C3"
+			tasks: [{
+				id: "188B5514B3F05957"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FC40672E07317B7"]
+			id: "3712354D4241935B"
+			tasks: [
+				{
+					id: "411A430D658833EE"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+				{
+					id: "690F2FD95752B324"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3712354D4241935B"]
+			id: "4152205E6789E409"
+			tasks: [
+				{
+					id: "00DCA283C6C860FD"
+					item: "apotheosis:heart_seashelf"
+					type: "item"
+				}
+				{
+					id: "254B58B40A45610F"
+					item: "apotheosis:blazing_hellshelf"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D0FB841719F95E9"]
+			id: "5F7311EDD10F82C5"
+			tasks: [{
+				id: "66F9444E83BE9A1D"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65A5EC19C1B5872B"]
+			id: "3888869EA941C647"
+			tasks: [{
+				id: "62AA12B96FCB1078"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:sigil_of_socketing"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:sigil_of_withdrawal"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:sigil_of_rebirth"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:sigil_of_enhancement"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:sigil_of_unnaming"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "符石"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AEB23B2DEECD946"]
+			id: "016318A682EAB3B9"
+			tasks: [{
+				id: "1A1F2BA533048EE8"
+				item: "tetra:basic_workbench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4738B6AF1EB67221"]
+			id: "2AEB23B2DEECD946"
+			tasks: [{
+				id: "664C30BBAD2BD04E"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "tetra:modular_double"
+					}
+				}
+				title: "锤"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48D0553AD9818D06"]
+			id: "1964F332BA2D0D99"
+			tasks: [
+				{
+					id: "4C8E2D8BC1BE3E3F"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+				{
+					id: "537623B8622AA19B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tetra:vent_plate"
+								}
+								{
+									Count: 1b
+									id: "tetra:planar_stabilizer"
+								}
+								{
+									Count: 1b
+									id: "tetra:thermal_cell"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "tetra:combustion_chamber"
+								}
+								{
+									Count: 1b
+									id: "tetra:lubricant_dispenser"
+								}
+							]
+						}
+					}
+					title: "锻造升级"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["016318A682EAB3B9"]
+			id: "48D0553AD9818D06"
+			tasks: [{
+				id: "26173B0B7B6A28F4"
+				structure: "#tetra:forged_ruins"
+				type: "structure"
+			}]
+			title: "锻造遗迹"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48D0553AD9818D06"]
+			id: "16FD2235938F47F0"
+			tasks: [{
+				id: "3816B2DB8BECEBA7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tetra:forged_bolt"
+							}
+							{
+								Count: 1b
+								id: "tetra:forged_beam"
+							}
+							{
+								Count: 1b
+								id: "tetra:forged_mesh"
+							}
+							{
+								Count: 1b
+								id: "tetra:quick_latch"
+							}
+							{
+								Count: 1b
+								id: "tetra:earthpiercer"
+							}
+							{
+								Count: 1b
+								id: "tetra:stonecutter"
+							}
+							{
+								Count: 1b
+								id: "tetra:chthonic_extractor"
+							}
+						]
+					}
+				}
+				title: "组件升级"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48D0553AD9818D06"]
+			id: "0C389408D01686D9"
+			tasks: [
+				{
+					id: "5148E9B010625DBA"
+					item: "tetra:transfer_unit"
+					type: "item"
+				}
+				{
+					id: "521348B2A590BAC7"
+					item: "tetra:core_extractor"
+					type: "item"
+				}
+				{
+					id: "2216FFD2AF19236F"
+					item: "tetra:extractor_pipe"
+					type: "item"
+				}
+			]
+			title: "热能提取器"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "5FC40672E07317B7"
+			subtitle: "Apotheosis"
+			tasks: [{
+				id: "4BD9C6DA0C821461"
+				title: "神化"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4738B6AF1EB67221"
+			tasks: [{
+				id: "1173AB1D3A2094F8"
+				title: "Tetra"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "装备"
+}

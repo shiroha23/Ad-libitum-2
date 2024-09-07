@@ -1,0 +1,2847 @@
+{
+	autofocus_id: "36EBF1FED6DFC439"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "177B2B24966E1417"
+	group: "5221DFB0D5EDCAFF"
+	icon: "thermal:dynamo_stirling"
+	id: "177B2B24966E1417"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["353643E259CC97FF"]
+			id: "2BE416196F976178"
+			rewards: [{
+				id: "0363C31976786563"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EA52AAE7A875E0B"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3966585717CD1EB1"]
+			id: "17441130A7EF0671"
+			rewards: [{
+				id: "669DCF8855513E61"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C4843FFCBE71959"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["400802B98ECF4197"]
+			id: "3966585717CD1EB1"
+			rewards: [{
+				id: "7AB3F713A65AB79E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D7C4497254AED5D"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["410C2769AA76C097"]
+			id: "2129BA1C8FF7841E"
+			rewards: [{
+				id: "335C9CEEDD321587"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69051512846A55BE"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39A165358F18AF1D"]
+			id: "4EC0EACE0963F686"
+			rewards: [{
+				id: "000BDC38C73FEFC6"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B78A8155583CEE8"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50941DDEDB4C1C91"]
+			id: "51D8F25DC24CA391"
+			rewards: [{
+				id: "0427A64A6925AF12"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4718F2A2F17E9D26"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4EC0EACE0963F686"]
+			hide_dependency_lines: true
+			id: "1CE9543C855DC5D9"
+			rewards: [{
+				id: "60AEF80C2AE21F53"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D6616D6846ED2E5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_pressurized_tube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_pressurized_tube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_pressurized_tube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_pressurized_tube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:restrictive_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:diversion_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_thermodynamic_conductor"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_thermodynamic_conductor"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_thermodynamic_conductor"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_thermodynamic_conductor"
+							}
+						]
+					}
+				}
+				title: "线缆管道"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EC0EACE0963F686"]
+			hide_dependency_lines: true
+			id: "0631C236861B95BC"
+			rewards: [{
+				id: "3912D5E7604EC0BF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C9A6CB206144AA0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:upgrade_speed"
+							}
+							{
+								Count: 1b
+								id: "mekanism:upgrade_energy"
+							}
+							{
+								Count: 1b
+								id: "mekanism:upgrade_filter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:upgrade_muffling"
+							}
+							{
+								Count: 1b
+								id: "mekanism:upgrade_gas"
+							}
+							{
+								Count: 1b
+								id: "mekanism:upgrade_anchor"
+							}
+							{
+								Count: 1b
+								id: "mekanism:upgrade_stone_generator"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_tier_installer"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_tier_installer"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_tier_installer"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_tier_installer"
+							}
+						]
+					}
+				}
+				title: "工厂升级"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51D8F25DC24CA391"]
+			id: "3DE55205C685544B"
+			rewards: [{
+				id: "69EB9A84D03E5C1A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1122CF8750C25960"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DE55205C685544B"]
+			id: "4DD5F8FE1BFE73B7"
+			rewards: [{
+				id: "12F22A3A2C598549"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31EABD8A9BD231F6"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "509475475B1E6FC1"
+			rewards: [{
+				id: "420D2D5BA4F5C392"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F680B9B766EA6BE"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "pipez"
+					}
+				}
+				title: "Pipez管道"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BE416196F976178"]
+			hide_dependency_lines: true
+			id: "65F677B4B0B136BB"
+			rewards: [{
+				id: "7734CDE8E99BFEA2"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "069064F21CF229F5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "thermal:machines"
+					}
+				}
+				title: "机器"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BE416196F976178"]
+			hide_dependency_lines: true
+			id: "319F77ED0BA74172"
+			rewards: [{
+				id: "52238F2870D64514"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A9C827B92B2103B"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "thermal:device"
+					}
+				}
+				title: "设备"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17441130A7EF0671"]
+			hide_dependency_lines: true
+			id: "2F100B658CBAF00C"
+			rewards: [{
+				id: "434AEECB932B9A95"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "45A1DB4D1718120F"
+					item: {
+						Count: 1
+						id: "thermal:energy_cell"
+						tag: {
+							BlockEntityTag: {
+								Energy: 0
+								EnergyMax: 1000000
+								EnergyRecv: 1000
+								EnergySend: 1000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42E7C9118111CFDE"
+					item: {
+						Count: 1
+						id: "thermal:fluid_cell"
+						tag: {
+							BlockEntityTag: {
+								TankInv: [{
+									Amount: 0
+									Capacity: 32000
+									FluidName: "minecraft:empty"
+									Tank: 0b
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "存储单元"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76951EAC436E46DF"]
+			id: "40F404CBA8FC8D05"
+			rewards: [{
+				id: "3DE839F0BE3396B2"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "沉浸工程 - Immersive Engineering"
+			tasks: [
+				{
+					id: "52531380D1BD711D"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0101292D4A9D8C"
+					item: {
+						Count: 1
+						id: "immersiveengineering:wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "155910A68EE0F086"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
+			title: "常用工具"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5809541CF3E51856"]
+			id: "62C4DF7E79CC4311"
+			rewards: [{
+				id: "7265CA3CA87BFAC3"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "61837EEB7EF6B623"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "高炉"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40F404CBA8FC8D05"]
+			id: "7DAEF690FAFE3D3F"
+			rewards: [{
+				id: "10606D5F0250545D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 27L
+				id: "53A12512EE178B4F"
+				item: { Count: 27, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "焦炉"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D20FBDAE8EFCD7B"]
+			id: "5809541CF3E51856"
+			rewards: [{
+				id: "7F80421A5E3014EC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F538DB6B8612E13"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+				{
+					id: "5CB6658BCE4DD83D"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+			]
+			title: "工程师台"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4730EE33D288F3AD"]
+			id: "466BCAA9AC02838E"
+			rewards: [{
+				id: "2B124E265BBA5124"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35C829C9D2CDCAC0"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0C93D0DF576B05BC"]
+			id: "775A52BBED6CE2FA"
+			rewards: [{
+				id: "61BE8F1AA97414DA"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2C20EC8BA86E0638"
+				item: { Count: 8, id: "immersiveengineering:alloybrick" }
+				type: "item"
+			}]
+			title: "合金窑"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D20FBDAE8EFCD7B"]
+			id: "4730EE33D288F3AD"
+			rewards: [{
+				id: "5C588BEB65C6047D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AD5255E55EA5BC0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "immersiveengineering:windmill"
+							}
+							{
+								Count: 1b
+								id: "immersiveengineering:watermill"
+							}
+						]
+					}
+				}
+				title: "动力源"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["466BCAA9AC02838E"]
+			id: "797CD46757FA39EC"
+			rewards: [{
+				id: "561CDA28D5FF76C9"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5EB35804B82202F4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "immersiveengineering:toolbox/wiring"
+						}
+					}
+					title: "传输"
+					type: "item"
+				}
+				{
+					id: "4420C29E1038ED18"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "immersiveengineering:capacitor_lv"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:capacitor_mv"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:capacitor_hv"
+								}
+							]
+						}
+					}
+					title: "储存"
+					type: "item"
+				}
+			]
+			title: "电的传输与储存"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["797CD46757FA39EC"]
+			id: "3F1369ED2A0D1BA1"
+			rewards: [{
+				id: "0061A45BBFE802D9"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "030375E3F2DA923A"
+				item: "immersiveengineering:furnace_heater"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F1369ED2A0D1BA1"]
+			id: "49FD1E464DBE4F9A"
+			rewards: [{
+				id: "60E4CD3A43076AFB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "746A36450217F140"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "25981DBA8F055ABA"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "112DE131B60889A3"
+					item: { Count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "66DFB2694881A5F0"
+					item: { Count: 8, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "69E76C3FA6912B05"
+					item: { Count: 9, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
+			title: "粉碎机"
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0AE364EEAEBA6D9A"]
+			id: "4F873B78851B1BD3"
+			rewards: [{
+				id: "0EC852E13DE497C5"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28E14B185E5E2A33"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4145AF86938F08E3"]
+			id: "790A6D2A8BEEB518"
+			rewards: [{
+				id: "08B7B4E0773160C5"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B66A6867929A6A3"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B4441E2C591013F"]
+			id: "4145AF86938F08E3"
+			rewards: [{
+				id: "576752CD81E856D8"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CF18536F90D8AEB"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["03CA9C356C9CB2B8"]
+			id: "0D1CC5EF47D69F50"
+			rewards: [{
+				id: "3590BDC40E903BE0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6AC56D8A486DAE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "enderio:soularium_grinding_ball"
+							}
+							{
+								Count: 1b
+								id: "enderio:conductive_alloy_grinding_ball"
+							}
+							{
+								Count: 1b
+								id: "enderio:pulsating_alloy_grinding_ball"
+							}
+							{
+								Count: 1b
+								id: "enderio:redstone_alloy_grinding_ball"
+							}
+							{
+								Count: 1b
+								id: "enderio:energetic_alloy_grinding_ball"
+							}
+							{
+								Count: 1b
+								id: "enderio:vibrant_alloy_grinding_ball"
+							}
+							{
+								Count: 1b
+								id: "enderio:copper_alloy_grinding_ball"
+							}
+							{
+								Count: 1b
+								id: "enderio:dark_steel_grinding_ball"
+							}
+							{
+								Count: 1b
+								id: "enderio:end_steel_grinding_ball"
+							}
+						]
+					}
+				}
+				title: "磨珠"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4F873B78851B1BD3"]
+			hide_dependency_lines: true
+			id: "1CD61C8A9C01CF60"
+			rewards: [{
+				id: "6445F81CC01E2DDF"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "494AF5816E0CE77E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "enderio:energy_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:fluid_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:pressurized_fluid_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:ender_fluid_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:redstone_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:item_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:extraction_speed_upgrade_1"
+							}
+							{
+								Count: 1b
+								id: "enderio:extraction_speed_upgrade_2"
+							}
+							{
+								Count: 1b
+								id: "enderio:extraction_speed_upgrade_3"
+							}
+							{
+								Count: 1b
+								id: "enderio:extraction_speed_upgrade_4"
+							}
+							{
+								Count: 1b
+								id: "enderio:dense_me_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:me_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:chemical_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:pressurized_chemical_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:ender_chemical_conduit"
+							}
+							{
+								Count: 1b
+								id: "enderio:heat_conduit"
+							}
+						]
+					}
+				}
+				title: "导管"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["17441130A7EF0671"]
+			hide_dependency_lines: true
+			id: "70200CD4EA5D5674"
+			rewards: [{
+				id: "2DF3399759FACB99"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E0D7B8532E493C3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:upgrade_augment_1"
+							}
+							{
+								Count: 1b
+								id: "thermal:upgrade_augment_2"
+							}
+							{
+								Count: 1b
+								id: "thermal:upgrade_augment_3"
+							}
+							{
+								Count: 1b
+								id: "thermal:rs_control_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:side_config_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:xp_storage_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:rf_coil_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:rf_coil_storage_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:rf_coil_xfer_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:fluid_tank_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:item_filter_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:fluid_filter_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_speed_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_efficiency_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_output_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_catalyst_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_cycle_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:machine_null_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_output_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_fuel_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_throttle_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:area_radius_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:potion_amplifier_augment"
+							}
+							{
+								Count: 1b
+								id: "thermal:potion_duration_augment"
+							}
+						]
+					}
+				}
+				title: "增强组件"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["790A6D2A8BEEB518"]
+			id: "03CA9C356C9CB2B8"
+			rewards: [{
+				id: "4F52875DE93BEADC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64304AFCABD783DC"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E90D7E5758E9A34"]
+			id: "1B609CAFBC3A93E0"
+			rewards: [{
+				id: "58F23F70C8E190F4"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "692F0B911C97D636"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "enderio:basic_capacitor_bank"
+							}
+							{
+								Count: 1b
+								id: "enderio:advanced_capacitor_bank"
+							}
+							{
+								Count: 1b
+								id: "enderio:vibrant_capacitor_bank"
+							}
+						]
+					}
+				}
+				title: "电容库"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4F873B78851B1BD3"]
+			hide_dependency_lines: true
+			id: "2E90D7E5758E9A34"
+			rewards: [{
+				id: "084C290D42727695"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "605CB69FA4FCEF10"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "enderio:basic_capacitor"
+							}
+							{
+								Count: 1b
+								id: "enderio:double_layer_capacitor"
+							}
+							{
+								Count: 1b
+								id: "enderio:octadic_capacitor"
+							}
+						]
+					}
+				}
+				title: "电容"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"76951EAC436E46DF"
+				"5CC5D3B958E50E8A"
+			]
+			id: "0254E197BDD076FA"
+			rewards: [{
+				id: "77BC1045CF9A265F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "科技复兴 - Tech Reborn"
+			tasks: [{
+				id: "250B221B9BDB55AA"
+				item: {
+					Count: 1
+					id: "techreborn:treetap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3DD456B7926EFFB9"]
+			id: "11048DF47480411A"
+			rewards: [{
+				id: "515C2612328EAE4B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "691567753B9B118C"
+				item: "techreborn:solid_fuel_generator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5F312C25BF09C8E5"]
+			id: "165DC332B68C8CF5"
+			rewards: [{
+				id: "7020C08E832FC6EE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61591AC6F600C102"
+				item: "techreborn:electric_furnace"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["165DC332B68C8CF5"]
+			id: "6957BED814D55A70"
+			rewards: [{
+				id: "462892DCB5F0BC0F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C0A6E61B41C5AC9"
+				item: "techreborn:grinder"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["17441130A7EF0671"]
+			hide_dependency_lines: true
+			id: "0FCF85C6F9397FDE"
+			rewards: [{
+				id: "0B8FB9457D620712"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "572D0D156E933428"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "thermal:dynamo_compression"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_magmatic"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_numismatic"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_lapidary"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_disenchantment"
+							}
+							{
+								Count: 1b
+								id: "thermal:dynamo_gourmand"
+							}
+						]
+					}
+				}
+				title: "能源炉"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0254E197BDD076FA"]
+			hide_dependency_lines: true
+			id: "7EC45B6B7FDE1851"
+			rewards: [{
+				id: "429AE6EBA7F324C0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "309698EB01CE1D97"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "techreborn:tin_cable"
+							}
+							{
+								Count: 1b
+								id: "techreborn:copper_cable"
+							}
+							{
+								Count: 1b
+								id: "techreborn:insulated_copper_cable"
+							}
+							{
+								Count: 1b
+								id: "techreborn:gold_cable"
+							}
+							{
+								Count: 1b
+								id: "techreborn:insulated_gold_cable"
+							}
+							{
+								Count: 1b
+								id: "techreborn:hv_cable"
+							}
+							{
+								Count: 1b
+								id: "techreborn:insulated_hv_cable"
+							}
+							{
+								Count: 1b
+								id: "techreborn:glassfiber_cable"
+							}
+							{
+								Count: 1b
+								id: "techreborn:superconductor_cable"
+							}
+						]
+					}
+				}
+				title: "电缆"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0254E197BDD076FA"]
+			hide_dependency_lines: true
+			id: "0E06EF74DD36318E"
+			rewards: [{
+				id: "31B74581CFE13116"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57B4CA90095F71B6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "techreborn:lv_transformer"
+							}
+							{
+								Count: 1b
+								id: "techreborn:mv_transformer"
+							}
+							{
+								Count: 1b
+								id: "techreborn:hv_transformer"
+							}
+							{
+								Count: 1b
+								id: "techreborn:ev_transformer"
+							}
+						]
+					}
+				}
+				title: "变压器"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0254E197BDD076FA"]
+			hide_dependency_lines: true
+			id: "23EA8EE19E22D695"
+			rewards: [{
+				id: "3E98DC57008946C1"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "520FB1123B5D61F8"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "techreborn:diesel_generator"
+							}
+							{
+								Count: 1b
+								id: "techreborn:dragon_egg_syphon"
+							}
+							{
+								Count: 1b
+								id: "techreborn:gas_turbine"
+							}
+							{
+								Count: 1b
+								id: "techreborn:lightning_rod"
+							}
+							{
+								Count: 1b
+								id: "techreborn:thermal_generator"
+							}
+							{
+								Count: 1b
+								id: "techreborn:water_mill"
+							}
+							{
+								Count: 1b
+								id: "techreborn:wind_mill"
+							}
+							{
+								Count: 1b
+								id: "techreborn:basic_solar_panel"
+							}
+							{
+								Count: 1b
+								id: "techreborn:advanced_solar_panel"
+							}
+							{
+								Count: 1b
+								id: "techreborn:industrial_solar_panel"
+							}
+							{
+								Count: 1b
+								id: "techreborn:ultimate_solar_panel"
+							}
+						]
+					}
+				}
+				title: "发电机"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0254E197BDD076FA"]
+			hide_dependency_lines: true
+			id: "64AB5E548FAC252E"
+			rewards: [{
+				id: "0379B6F15FAB2EBC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67BB220143B3F2B9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "techreborn:storage_buffer"
+							}
+							{
+								Count: 1b
+								id: "techreborn:crude_storage_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:basic_storage_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:advanced_storage_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:industrial_storage_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:quantum_storage_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:basic_tank_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:advanced_tank_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:industrial_tank_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:quantum_tank_unit"
+							}
+							{
+								Count: 1b
+								id: "techreborn:low_voltage_su"
+							}
+							{
+								Count: 1b
+								id: "techreborn:medium_voltage_su"
+							}
+							{
+								Count: 1b
+								id: "techreborn:high_voltage_su"
+							}
+						]
+					}
+				}
+				title: "TR储存"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6957BED814D55A70"]
+			id: "01A219CFAEEA7C53"
+			tasks: [{
+				id: "60F5FA1ADC4635C9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "techreborn:iron_alloy_furnace"
+							}
+							{
+								Count: 1b
+								id: "techreborn:alloy_smelter"
+							}
+						]
+					}
+				}
+				title: "合金炉"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5D5F633A51EC9935"]
+			hide_dependency_lines: true
+			id: "26255F8DB5FAB20A"
+			rewards: [{
+				id: "65279848C3FCD57C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53E3BDA3FD340632"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:hand_crank"
+							}
+							{
+								Count: 1b
+								id: "create:water_wheel"
+							}
+							{
+								Count: 1b
+								id: "create:large_water_wheel"
+							}
+							{
+								Count: 1b
+								id: "create:windmill_bearing"
+							}
+							{
+								Count: 1b
+								id: "create:white_sail"
+							}
+						]
+					}
+				}
+				title: "动力源"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["367C4DD6CA2F6F8F"]
+			id: "2ADDF3CF9FAACA09"
+			rewards: [{
+				id: "0B5B10168C51C8B6"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E146991ADC2CC0D"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2ADDF3CF9FAACA09"]
+			id: "31A175DEE5F5F789"
+			rewards: [{
+				id: "6A3C30A5269ECDE8"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C1A62A6FCBBF4B9"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D5F633A51EC9935"]
+			hide_dependency_lines: true
+			id: "6124C53D47E17539"
+			rewards: [{
+				id: "3FE5F043C6F219CB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "550F0A97565E0738"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "76E8174AA27D949D"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58266AE09D5432BB"]
+			id: "6DC404FC117DBB93"
+			rewards: [{
+				id: "23CE743BAFEAF934"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A09B15CBDDFB2E0"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "214ED08DD899B81D"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "烈焰人燃烧室"
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3CB5485F650EFD97"]
+			id: "2BCD097596EF9B93"
+			rewards: [{
+				id: "22FEF3F540F8D3B6"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 21L
+				id: "1759CE721208B9B7"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BCD097596EF9B93"]
+			id: "151034ED84E2B79B"
+			rewards: [{
+				id: "249B81D4593C059F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "58A9002F8FF8C347"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2ADDF3CF9FAACA09"]
+			hide_dependency_lines: true
+			id: "44DA60B209576ED7"
+			rewards: [{
+				id: "661BC01AFACDB70F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A6E6AB3F1C1F340"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:fluid_pipe"
+							}
+							{
+								Count: 1b
+								id: "create:mechanical_pump"
+							}
+							{
+								Count: 1b
+								id: "create:smart_fluid_pipe"
+							}
+							{
+								Count: 1b
+								id: "create:fluid_valve"
+							}
+							{
+								Count: 1b
+								id: "create:fluid_tank"
+							}
+							{
+								Count: 1b
+								id: "create:hose_pulley"
+							}
+							{
+								Count: 1b
+								id: "create:item_drain"
+							}
+							{
+								Count: 1b
+								id: "create:spout"
+							}
+							{
+								Count: 1b
+								id: "create:portable_fluid_interface"
+							}
+						]
+					}
+				}
+				title: "流体操纵器械"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "76951EAC436E46DF"
+			tasks: [{
+				id: "7F24DB3F2B93C1D4"
+				title: "科技基本"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "36EBF1FED6DFC439"
+			invisible: true
+			tasks: [{
+				id: "62A6B2B77F78C076"
+				type: "custom"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "5CC5D3B958E50E8A"
+			tasks: [{
+				id: "10E8A50FF0BD0C87"
+				title: "WIP"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["44DA60B209576ED7"]
+			id: "707A75809D608AE2"
+			tasks: [{
+				id: "093D30FA61D0F218"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2BCD097596EF9B93"
+				"2751EFE0AE753AD8"
+			]
+			hide: true
+			id: "48E41DD3A4FA2F6E"
+			rewards: [{
+				id: "52BE2BF533A46854"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "765A8D2F9E5BCD4C"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2BE416196F976178"
+				"11048DF47480411A"
+				"466BCAA9AC02838E"
+				"4145AF86938F08E3"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			hide_dependency_lines: true
+			id: "2751EFE0AE753AD8"
+			tasks: [{
+				id: "04DB625931752296"
+				title: "基础发电"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76951EAC436E46DF"]
+			id: "596A09865A0F8EEA"
+			rewards: [{
+				id: "70D4558E8A30DB15"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "机械动力 - Create"
+			tasks: [{
+				id: "1A11E3C707DD8805"
+				item: "alltheores:zinc_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76951EAC436E46DF"]
+			id: "0AE364EEAEBA6D9A"
+			rewards: [{
+				id: "656C84E7C24E3EB2"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "末影接口 - Ender IO"
+			tasks: [{
+				id: "67E3A4FD0F7DB013"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["31A175DEE5F5F789"]
+			id: "58266AE09D5432BB"
+			rewards: [{
+				id: "469EC88969D4D060"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "377A2199822BBB69"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["596A09865A0F8EEA"]
+			id: "5D5F633A51EC9935"
+			rewards: [{
+				id: "751ED7A7273E8E34"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46D4CD8A9059C187"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DC404FC117DBB93"]
+			id: "3CB5485F650EFD97"
+			rewards: [{
+				id: "29BC6BB1771EA530"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "385175CB56FFEF46"
+				item: "alltheores:brass_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D5F633A51EC9935"]
+			id: "367C4DD6CA2F6F8F"
+			rewards: [{
+				id: "06EA139BA2C685D9"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "561672293238C0A9"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76951EAC436E46DF"]
+			id: "353643E259CC97FF"
+			rewards: [{
+				id: "683C05897B0E3FAC"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "热力膨胀 - Thermal Expansion"
+			tasks: [
+				{
+					id: "6BECA0160A58D6F8"
+					item: "thermal:rf_coil"
+					type: "item"
+				}
+				{
+					id: "7D1A2F9737C0D40F"
+					item: "alltheores:iron_gear"
+					type: "item"
+				}
+			]
+			title: "线圈与齿轮"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BE416196F976178"]
+			id: "400802B98ECF4197"
+			rewards: [{
+				id: "29867B9EB23302E6"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39CFF087110CE9BC"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17441130A7EF0671"]
+			id: "410C2769AA76C097"
+			rewards: [{
+				id: "7DCFA2CE3F66C0D1"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7D94E1E144D90B93"
+				item: "alltheores:invar_dust"
+				type: "item"
+			}]
+			title: "合金粉"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1010607E91806A5E"]
+			id: "757D8B546C75091E"
+			rewards: [{
+				id: "08AE9BB8F7FE1E66"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "672DF0F85A10298A"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["757D8B546C75091E"]
+			id: "246461B07DC20970"
+			rewards: [{
+				id: "02B921A85EC764E2"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C78ECF6F24ED81A"
+				item: "thermal:slot_seal"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2129BA1C8FF7841E"]
+			id: "1010607E91806A5E"
+			rewards: [{
+				id: "183E6B3C936CD3CB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "65ACAEFF98A8929C"
+					item: "alltheores:bronze_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "08D58A0D52A5AD0D"
+					item: "alltheores:constantan_ingot"
+					type: "item"
+				}
+			]
+			title: "合金锭"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76951EAC436E46DF"]
+			id: "39A165358F18AF1D"
+			rewards: [{
+				id: "5EB66122CE60B3BD"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "通用机械 - Mekanism"
+			tasks: [{
+				id: "133F41031891E683"
+				item: "alltheores:osmium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69E22123F339D9F7"]
+			id: "19B52529FF421AB5"
+			tasks: [{
+				id: "24831FFC97D01F4D"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4EC0EACE0963F686"]
+			id: "69E22123F339D9F7"
+			tasks: [
+				{
+					id: "3633755F7613EEAB"
+					item: "mekanism:enriched_iron"
+					type: "item"
+				}
+				{
+					id: "45972FC86F9786A0"
+					item: "alltheores:steel_dust"
+					type: "item"
+				}
+			]
+			title: "合金"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39A165358F18AF1D"]
+			hide_dependency_lines: true
+			id: "6781078641A68748"
+			tasks: [{
+				id: "1EC6E6FA67F47D37"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismgenerators:heat_generator"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:wind_generator"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:solar_generator"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:advanced_solar_generator"
+							}
+						]
+					}
+				}
+				title: "简易发电机"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "44B23E7B57F9B760"
+			tasks: [{
+				id: "27C9AEAB2281C5CD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_energy_cube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_energy_cube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_energy_cube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_energy_cube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_fluid_tank"
+							}
+							{
+								Count: 1b
+								id: "mekanism:advanced_fluid_tank"
+							}
+							{
+								Count: 1b
+								id: "mekanism:elite_fluid_tank"
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_fluid_tank"
+							}
+							{
+								Count: 1b
+								id: "mekanism:personal_barrel"
+							}
+							{
+								Count: 1b
+								id: "mekanism:personal_chest"
+							}
+						]
+					}
+				}
+				title: "MEK储存"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19B52529FF421AB5"]
+			id: "50941DDEDB4C1C91"
+			tasks: [{
+				id: "23D0BA9FC18CBB19"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51D8F25DC24CA391"]
+			id: "516EF86B80CEE1DB"
+			tasks: [{
+				id: "64AA7C6F8E52ADB1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:enriched_carbon"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_redstone"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_diamond"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_refined_obsidian"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_gold"
+							}
+							{
+								Count: 1b
+								id: "mekanism:enriched_tin"
+							}
+						]
+					}
+				}
+				title: "富集！"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DAEF690FAFE3D3F"]
+			id: "2D20FBDAE8EFCD7B"
+			rewards: [{
+				count: 64
+				id: "06F192EABF95F867"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61A033B8F7807E8C"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+				{
+					id: "701B7209B3945BCA"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+			]
+			title: "杂酚油与防腐木"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D20FBDAE8EFCD7B"]
+			id: "7A01CF4FDB3FC1C2"
+			rewards: [{
+				id: "035005FDEBBBD405"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "335097F6122AB1EE"
+				item: "immersiveengineering:wooden_barrel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["62C4DF7E79CC4311"]
+			id: "0C93D0DF576B05BC"
+			rewards: [{
+				id: "335D92119AA25B1D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D6697EBCD3D723A"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0111084F118A4998"]
+			id: "7803950EE6E0837D"
+			rewards: [{
+				id: "7A28FB07AFA37E0C"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63FD1A139B0BFCA3"
+				item: "enderio:dark_steel_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4F873B78851B1BD3"]
+			id: "0111084F118A4998"
+			rewards: [{
+				id: "46F995C5DC494013"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26BF4C22F3F43267"
+				item: "enderio:powdered_coal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7803950EE6E0837D"]
+			id: "4B4441E2C591013F"
+			tasks: [{
+				id: "45324B78B1F12195"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0254E197BDD076FA"]
+			id: "6D1C3B1709710100"
+			rewards: [{
+				id: "3FCF83904E50E150"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "701C99F1FD12606F"
+					item: "techreborn:sap"
+					type: "item"
+				}
+				{
+					id: "0E5C6FA32503FF01"
+					item: "techreborn:rubber"
+					type: "item"
+				}
+			]
+			title: "黏性树脂与橡胶"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D1C3B1709710100"]
+			id: "642D20E73927A87D"
+			rewards: [{
+				id: "2BAE9C0DD4B96FBE"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "368D4A176FA256A2"
+				item: "techreborn:red_cell_battery"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["642D20E73927A87D"]
+			id: "3DD456B7926EFFB9"
+			rewards: [{
+				id: "0425DE9921402CEB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53D4A5F4572CE498"
+				item: "techreborn:basic_machine_frame"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["11048DF47480411A"]
+			id: "5F312C25BF09C8E5"
+			rewards: [{
+				id: "37A2F609CCC2228F"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "06FA1150CC526180"
+				item: "techreborn:electronic_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+	]
+	subtitle: ["基本的矿石处理与合金制作"]
+	title: "基本"
+}

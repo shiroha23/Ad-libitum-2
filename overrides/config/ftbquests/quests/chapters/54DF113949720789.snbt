@@ -1,0 +1,1152 @@
+{
+	autofocus_id: "08AE0CE904588280"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54DF113949720789"
+	group: "6DB4BF959ECD85D6"
+	icon: "ars_nouveau:archmage_spell_book"
+	id: "54DF113949720789"
+	order_index: 2
+	quest_links: [{
+		id: "6B9F536393D77374"
+		linked_quest: "57FBB56B1F944432"
+		x: 6.0d
+		y: 4.0d
+	}]
+	quests: [
+		{
+			dependencies: ["31B9CF6F7A3C196A"]
+			id: "053EFD45DA2B09E5"
+			rewards: [{
+				id: "0AB2639BFEC86654"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AB8F741287E06D4"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["163E24EACA3F78EB"]
+			id: "77FCF794AF748583"
+			rewards: [{
+				id: "40B53A322472E20D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A39CACBDFB7656B"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C90F4F08BE193AC"]
+			id: "163E24EACA3F78EB"
+			rewards: [{
+				id: "35B827A579309AD1"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B652D02D64036EF"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "4A725D969CC1C48E"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39D359EA8CD548AA"]
+			id: "261FF64E08BF361D"
+			rewards: [{
+				id: "098FD586FEB7345B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B4254110E082A5A"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["261FF64E08BF361D"]
+			id: "35E66D8E1C65C807"
+			rewards: [{
+				id: "0D89DACAA4A32E82"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BAA51A2D87F2AB3"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35E66D8E1C65C807"]
+			id: "2680AEA62E3570EC"
+			rewards: [{
+				id: "449EDE85BDD9B245"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5890BE60CCADFD4E"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2680AEA62E3570EC"]
+			id: "4B8960237D12462E"
+			rewards: [{
+				id: "0BF9C5F914ED7E39"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29838C91DD6AFC37"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2680AEA62E3570EC"]
+			hide_dependency_lines: true
+			id: "5CCDCE6C19F1B318"
+			rewards: [{
+				id: "1254DB518619747B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16AE5272C4E71E5A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:amulet_of_mana_boost"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:amulet_of_mana_regen"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:ring_of_lesser_discount"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:ring_of_greater_discount"
+							}
+						]
+					}
+				}
+				title: "基础饰品"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["163E24EACA3F78EB"]
+			hide_dependency_lines: true
+			id: "0063217D8403AB23"
+			rewards: [{
+				id: "5F7A8F41B830E44E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51B03828CC72BAD6"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+				{
+					id: "5F8C9D455BD899A8"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:alchemical_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:vitalic_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:mycelial_sourcelink"
+								}
+							]
+						}
+					}
+					optional_task: true
+					title: "其他魔源通道"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["163E24EACA3F78EB"]
+			hide_dependency_lines: true
+			id: "539CC2105E922B08"
+			rewards: [{
+				id: "7B6635377701DF61"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D7E9E9154D30B9F"
+					item: "ars_nouveau:basic_spell_turret"
+					type: "item"
+				}
+				{
+					id: "508F24247E220996"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:rotating_spell_turret"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:timer_spell_turret"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:spell_turret"
+								}
+							]
+						}
+					}
+					title: "法术炮塔升级"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0063217D8403AB23"]
+			id: "0AF26B3F31DA4A47"
+			rewards: [{
+				id: "65492A584ECDB8E1"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7305FF3981D19FBB"
+					item: "ars_nouveau:relay"
+					title: "魔源中继器"
+					type: "item"
+				}
+				{
+					id: "5B7234154D6AA9B2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:relay_splitter"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:relay_deposit"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:relay_warp"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:relay_collector"
+								}
+							]
+						}
+					}
+					title: "魔源中继续器升级"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AF26B3F31DA4A47"]
+			id: "39D359EA8CD548AA"
+			rewards: [{
+				id: "4AD94F39F7A20ED8"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "509DD3403D034C18"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77FCF794AF748583"]
+			id: "1D9681D79E324A47"
+			rewards: [{
+				id: "4CC536E8508CE0FD"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3868008DA8B2AD1C"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["053EFD45DA2B09E5"]
+			hide_dependency_lines: true
+			id: "4AD4E9EA6DF98C23"
+			rewards: [{
+				id: "444F2E2FEE28BBBB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D5BCE33B56EB2CF"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["539CC2105E922B08"]
+			id: "149A6CF6A5246EB5"
+			rewards: [{
+				id: "76D6251983CC7994"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E46FC6401032520"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35E66D8E1C65C807"]
+			hide_dependency_lines: true
+			id: "26748D8CB4E0BF3A"
+			rewards: [{
+				id: "5F9093C350B052C1"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "544A28409F4550C5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:bookwyrm_charm"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:starbuncle_charm"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:whirlisprig_charm"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:wixie_charm"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:drygmy_charm"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:amethyst_golem_charm"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:siren_charm"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:firenando_charm"
+							}
+						]
+					}
+				}
+				title: "召唤生物护符"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2680AEA62E3570EC"]
+			hide_dependency_lines: true
+			id: "65B79FAC439D8B7C"
+			rewards: [{
+				id: "159298D18E131D27"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60F84223D1DB654A"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "31B9CF6F7A3C196A"
+			rewards: [{
+				id: "10ACC462F70F4080"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "新生魔艺 - Ars Nouveau"
+			tasks: [{
+				id: "13647E1C6506F784"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35E66D8E1C65C807"]
+			hide_dependency_lines: true
+			id: "1E0CF2499F0619B3"
+			rewards: [{
+				id: "3CE248B598DD9325"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A5E00CBA7162A45"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_bow"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_shield"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_mirror"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:spell_crossbow"
+								tag: {
+									Charged: 0b
+									ChargedProjectiles: [ ]
+									isSpell: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:enchanters_eye"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:spell_horn"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "工具类"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35E66D8E1C65C807"]
+			hide_dependency_lines: true
+			id: "1F74FE98D2AA6DC4"
+			rewards: [{
+				id: "44EC6742488FE3F6"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EDAAD5A182C8CB5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:belt_of_unstable_gifts"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:belt_of_levitation"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:summon_focus"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:shapers_focus"
+							}
+						]
+					}
+				}
+				title: "饰品类"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35E66D8E1C65C807"]
+			hide_dependency_lines: true
+			id: "3856AEF1A2DB88C5"
+			rewards: [{
+				id: "60F1B2794FB6D7C9"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02A8B1D96229D9C6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:potion_flask"
+								tag: {
+									Damage: 8
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:potion_diffuser"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:potion_melder"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:alchemists_crown"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:splash_flask_cannon"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:lingering_flask_cannon"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "药水类"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35E66D8E1C65C807"]
+			hide_dependency_lines: true
+			id: "693172FB31BA6FBB"
+			rewards: [{
+				id: "31A06B628F529254"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DC16C088C4CC01D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:sorcerer_hood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:sorcerer_robes"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:sorcerer_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:sorcerer_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:arcanist_hood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:arcanist_robes"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:arcanist_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:arcanist_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:battlemage_hood"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:battlemage_robes"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:battlemage_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:battlemage_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "法师袍"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["693172FB31BA6FBB"]
+			id: "06B809BF21FEC369"
+			rewards: [{
+				id: "552C3BE40EDC3DB7"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "53CC7A9DF27F0607"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["053EFD45DA2B09E5"]
+			id: "0F80D4DEDC7F1210"
+			rewards: [{
+				id: "5B676F29683E133D"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0952B04416DDD2F5"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F80D4DEDC7F1210"]
+			id: "0C90F4F08BE193AC"
+			rewards: [{
+				id: "79B50F07A0D45529"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "1"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2847EADDE3802CBE"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75F1B78BF06D8B2C"]
+			id: "593E3741C1FC87E5"
+			rewards: [{
+				id: "25D92861DFD65B1C"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47866AB7779AB282"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65B79FAC439D8B7C"]
+			hide_dependency_lines: true
+			id: "75F1B78BF06D8B2C"
+			rewards: [{
+				id: "0D482C3C30EDE421"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00281F8A0CE31D0F"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			id: "08AE0CE904588280"
+			invisible: true
+			tasks: [{
+				id: "184A91BA59EB07CA"
+				type: "custom"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35E66D8E1C65C807"]
+			hide_dependency_lines: true
+			id: "4420892A23F82452"
+			rewards: [{
+				id: "23AE9AFDC80163DA"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "510E20BD44CF7302"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:scryers_oculus"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:scryers_crystal"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:scryer_scroll"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "预言师之眼"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["149A6CF6A5246EB5"]
+			hide_dependency_lines: true
+			id: "293BDC51618B7642"
+			rewards: [{
+				id: "1BACC03545CE9973"
+				item: {
+					Count: 1
+					id: "ars_nouveau:source_jar"
+					tag: {
+						BlockEntityTag: {
+							Items: [ ]
+							id: "ars_nouveau:source_jar"
+							source: 10000
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "126069170C882728"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:warp_scroll"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:stable_warp_scroll"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "折跃卷轴"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1CEA19EDDB28AB23"
+					item: { Count: 10, id: "ars_nouveau:sourcestone" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+	]
+	title: "新生魔艺"
+}
