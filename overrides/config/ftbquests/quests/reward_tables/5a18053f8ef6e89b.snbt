@@ -32,6 +32,9 @@
 				}
 			}
 		}
+		{ count: 32, item: "pneumaticcraft:ingot_iron_compressed" }
+		{ count: 64, item: "techreborn:rubber" }
+		{ count: 64, item: "enderio:grains_of_infinity" }
 	]
 	title: "科技"
 }

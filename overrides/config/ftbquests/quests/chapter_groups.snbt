@@ -1,9 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "2364E1E6EBB3ABCB", title: "冒险" }
+		{ id: "2364E1E6EBB3ABCB", title: "生存" }
 		{ id: "5221DFB0D5EDCAFF", title: "科技" }
 		{ id: "6DB4BF959ECD85D6", title: "魔法" }
-		{ id: "328D59D61271B5A9", title: "储存与自动化" }
 		{ id: "5C39A77F4B0C1142", title: "生产力" }
 	]
 }

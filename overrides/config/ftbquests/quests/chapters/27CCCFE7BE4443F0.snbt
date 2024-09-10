@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "27CCCFE7BE4443F0"
-	group: ""
+	group: "2364E1E6EBB3ABCB"
 	icon: {
 		Count: 1
 		id: "mekanismtools:iron_paxel"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "27CCCFE7BE4443F0"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

@@ -7,7 +7,12 @@
 	icon: "thermal:dynamo_stirling"
 	id: "177B2B24966E1417"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "4655C733796BAD80"
+		linked_quest: "2AC33B10299ABC8B"
+		x: 16.0d
+		y: 15.0d
+	}]
 	quests: [
 		{
 			dependencies: ["353643E259CC97FF"]
@@ -1322,10 +1327,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"76951EAC436E46DF"
-				"5CC5D3B958E50E8A"
-			]
+			dependencies: ["76951EAC436E46DF"]
 			id: "0254E197BDD076FA"
 			rewards: [{
 				id: "77BC1045CF9A265F"
@@ -2062,16 +2064,6 @@
 			y: 2.0d
 		}
 		{
-			id: "5CC5D3B958E50E8A"
-			tasks: [{
-				id: "10E8A50FF0BD0C87"
-				title: "WIP"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 12.0d
-		}
-		{
 			dependencies: ["44DA60B209576ED7"]
 			id: "707A75809D608AE2"
 			tasks: [{
@@ -2131,14 +2123,9 @@
 			dependencies: ["76951EAC436E46DF"]
 			id: "596A09865A0F8EEA"
 			rewards: [{
-				id: "70D4558E8A30DB15"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "2"
-					}
-				}
+				count: 32
+				id: "5F1AACF32E327283"
+				item: "alltheores:zinc_ingot"
 				type: "item"
 			}]
 			subtitle: "机械动力 - Create"
@@ -2154,14 +2141,9 @@
 			dependencies: ["76951EAC436E46DF"]
 			id: "0AE364EEAEBA6D9A"
 			rewards: [{
-				id: "656C84E7C24E3EB2"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "2"
-					}
-				}
+				count: 64
+				id: "28A5B9E19A0E8AC0"
+				item: "enderio:grains_of_infinity"
 				type: "item"
 			}]
 			subtitle: "末影接口 - Ender IO"
@@ -2276,19 +2258,11 @@
 				type: "item"
 			}]
 			subtitle: "热力膨胀 - Thermal Expansion"
-			tasks: [
-				{
-					id: "6BECA0160A58D6F8"
-					item: "thermal:rf_coil"
-					type: "item"
-				}
-				{
-					id: "7D1A2F9737C0D40F"
-					item: "alltheores:iron_gear"
-					type: "item"
-				}
-			]
-			title: "线圈与齿轮"
+			tasks: [{
+				id: "6BECA0160A58D6F8"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -2418,14 +2392,9 @@
 			dependencies: ["76951EAC436E46DF"]
 			id: "39A165358F18AF1D"
 			rewards: [{
-				id: "5EB66122CE60B3BD"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "2"
-					}
-				}
+				count: 32
+				id: "0F8B3F1053F985B6"
+				item: "alltheores:osmium_ingot"
 				type: "item"
 			}]
 			subtitle: "通用机械 - Mekanism"
@@ -2749,14 +2718,9 @@
 			dependencies: ["0254E197BDD076FA"]
 			id: "6D1C3B1709710100"
 			rewards: [{
-				id: "3FCF83904E50E150"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "2"
-					}
-				}
+				count: 64
+				id: "2DDF6FF6F88827BC"
+				item: "techreborn:rubber"
 				type: "item"
 			}]
 			tasks: [
@@ -2840,6 +2804,371 @@
 			}]
 			x: 10.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["151034ED84E2B79B"]
+			id: "158A9F265220448A"
+			rewards: [{
+				id: "7882AE0795EF4F32"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05E2D5A4DF12FF50"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76951EAC436E46DF"]
+			id: "31E3B87235A3F2A5"
+			rewards: [{
+				count: 32
+				id: "36B83FF65D5995F6"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			subtitle: "气动工艺 - PneumaticCraft: Repressurized"
+			tasks: [{
+				id: "698060C9278DAF1E"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["31E3B87235A3F2A5"]
+			id: "4F6C3F5A7D448ACF"
+			rewards: [{
+				id: "5E5B4FFDC31E967A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61C0A243E9904984"
+					item: "pneumaticcraft:reinforced_stone"
+					type: "item"
+				}
+				{
+					id: "57E887FE61D78129"
+					item: "pneumaticcraft:reinforced_bricks"
+					type: "item"
+				}
+			]
+			title: "强化石及砖块"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4F6C3F5A7D448ACF"]
+			id: "0008404C12F05BFF"
+			rewards: [{
+				id: "670AE070784CF769"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B2C83A6FE5BC6AC"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0008404C12F05BFF"]
+			id: "343A817F754719E1"
+			rewards: [{
+				id: "0CD148BC039711ED"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AD5DF783293CE16"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:liquid_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:air_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:thermal_compressor"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["343A817F754719E1"]
+			id: "15C4226DE925A59C"
+			rewards: [{
+				id: "12A1948ACFF2AAFB"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 22L
+					id: "39ACD48CEC024CFA"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "370F58BA0ABAF8AC"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+				{
+					id: "50F236A4755505E5"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5CE8AF48E87B765F"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+			]
+			title: "压力室"
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["343A817F754719E1"]
+			id: "6C7ED9CA6D8991D1"
+			rewards: [{
+				id: "1C60DEEE748E68F0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "375DD4B5F04E5C72"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6C7ED9CA6D8991D1"]
+			id: "0860F4B91565446D"
+			rewards: [{
+				id: "6602B58AAF2AFC93"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67106F97D48E87A3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:pneumatic_wrench"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:manometer"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:camo_applicator"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:vortex_cannon"
+							}
+						]
+					}
+				}
+				title: "实用工具"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["343A817F754719E1"]
+			id: "20401049A22D028B"
+			rewards: [{
+				id: "539311CBA0A34785"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BF87DB62C90D4A8"
+				item: "pneumaticcraft:heat_sink"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["343A817F754719E1"]
+			hide_dependency_lines: true
+			id: "51D2D89B776895CF"
+			rewards: [{
+				id: "5EBA964DC23ABA6A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CDD2A02D3EC0403"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["51D2D89B776895CF"]
+			id: "7983B0E23AE4BAFB"
+			rewards: [{
+				id: "7621C8F36845A91A"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29D43116AB665AA0"
+				item: "pneumaticcraft:heat_pipe"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7983B0E23AE4BAFB"]
+			id: "1387D9EF5EDDF59B"
+			rewards: [{
+				id: "5A9B22A061114A4B"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CF42C28A5EEAFE3"
+				item: "pneumaticcraft:heat_frame"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["20401049A22D028B"]
+			id: "7B8F97F5493AD26A"
+			rewards: [{
+				id: "471F68AFC9AF774E"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01D9CB1ED8FDB65E"
+				item: "pneumaticcraft:air_grate_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4DD5F8FE1BFE73B7"]
+			id: "20ECE8A6E71D87F1"
+			tasks: [{
+				id: "4753AD31602D63C2"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["基本的矿石处理与合金制作"]

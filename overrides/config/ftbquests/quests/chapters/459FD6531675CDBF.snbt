@@ -6,69 +6,67 @@
 	icon: "biggerreactors:reactor_terminal"
 	id: "459FD6531675CDBF"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "79613EDE57C608E3"
+		linked_quest: "20ECE8A6E71D87F1"
+		x: 0.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
-			hide_dependency_lines: true
+			dependencies: ["0B6DF92E45BC7DC8"]
 			id: "6BBDB7839C6E7DAE"
 			tasks: [{
 				id: "56CD79BC09E6B930"
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["20ECE8A6E71D87F1"]
 			id: "0B6DF92E45BC7DC8"
-			subtitle: "MEK裂变"
 			tasks: [{
 				id: "12CB25AFA520408C"
 				item: "mekanism:chemical_oxidizer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			hide_dependency_lines: true
+			dependencies: ["6BBDB7839C6E7DAE"]
 			id: "5200FBA138D3B228"
 			tasks: [{
 				id: "1F1221B68A5F3440"
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6BBDB7839C6E7DAE"
-				"0B6DF92E45BC7DC8"
-				"5200FBA138D3B228"
-			]
+			dependencies: ["5200FBA138D3B228"]
 			id: "655E5439375E27A6"
 			tasks: [{
 				id: "4F33EE9147C85CE3"
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"655E5439375E27A6"
-				"6A892951B70245EE"
-			]
+			dependencies: ["655E5439375E27A6"]
 			id: "028D476CC7BD71A3"
 			tasks: [{
 				id: "66B3271719BB47CC"
 				item: "mekanism:chemical_dissolution_chamber"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["028D476CC7BD71A3"]
@@ -78,8 +76,8 @@
 				item: "mekanism:isotopic_centrifuge"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40F690B1861E0994"]
@@ -111,150 +109,209 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 1.0d
+			title: "裂变反应堆"
+			x: 14.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["15C4226DE925A59C"]
 			hide_dependency_lines: true
-			id: "6A892951B70245EE"
+			id: "2AC33B10299ABC8B"
 			tasks: [{
-				id: "3BF76240FCC8C0E6"
-				item: "mekanism:osmium_compressor"
+				id: "00606AA709482E13"
+				item: "pneumaticcraft:seismic_sensor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
-		}
-		{
-			id: "479B0DD2CC214635"
-			tasks: [{
-				id: "6F8C616631FBBA1C"
-				title: "MEK涡轮"
-				type: "checkmark"
-			}]
-			x: 10.0d
-			y: 1.0d
-		}
-		{
-			id: "66221CF859A25238"
-			tasks: [{
-				id: "47033DAF998DBB69"
-				title: "Bigger Reactors涡轮机"
-				type: "checkmark"
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
-			id: "627B2DB1C4527D11"
-			subtitle: "Bigger Reactors 反应堆"
-			tasks: [
-				{
-					count: 2L
-					id: "26F3B45E95AAF0E9"
-					item: { Count: 2, id: "immersiveengineering:light_engineering" }
-					type: "item"
-				}
-				{
-					id: "5E3338F383A590BF"
-					item: "immersiveengineering:rs_engineering"
-					type: "item"
-				}
-				{
-					id: "0801E23D4E695154"
-					item: "minecraft:piston"
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "04334F030923C6FA"
-					item: { Count: 6, id: "immersiveengineering:steel_scaffolding_standard" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "29343BAE7AF7F902"
-					item: { Count: 3, id: "immersiveengineering:steel_fence" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "40DD12B166D49CB9"
-					item: { Count: 2, id: "immersiveengineering:fluid_pipe" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "10D6BB0B89867934"
-					item: { Count: 4, id: "immersiveengineering:wooden_barrel" }
-					type: "item"
-				}
-			]
-			title: "工业挤压机"
 			x: 0.0d
-			y: -3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["627B2DB1C4527D11"]
-			id: "36847C6C3A42D15B"
+			dependencies: ["2AC33B10299ABC8B"]
+			id: "5B79622950A4EC2E"
 			tasks: [
 				{
-					id: "597CA1CE7A947050"
-					item: "immersiveengineering:dust_hop_graphite"
+					id: "4EB2A74A3BE30D33"
+					item: "pneumaticcraft:gas_lift"
 					type: "item"
 				}
 				{
-					id: "36AE68609EA60296"
-					item: "immersiveengineering:ingot_hop_graphite"
-					type: "item"
-				}
-				{
-					id: "678CDC715DA3CE28"
-					item: "biggerreactors:graphite_ingot"
+					id: "0BFA79DC2C6F6E3D"
+					item: "pneumaticcraft:drill_pipe"
 					type: "item"
 				}
 			]
 			x: 2.0d
-			y: -3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["36847C6C3A42D15B"]
-			id: "37F7261FE5CAC924"
+			dependencies: ["5B79622950A4EC2E"]
+			id: "3CDE84BC5521B62D"
+			tasks: [{
+				id: "7C27139CE4FEDF27"
+				item: "pneumaticcraft:small_tank"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CDE84BC5521B62D"]
+			id: "24D5BF9B6FD28EF8"
+			tasks: [{
+				id: "51B791CB720CD01E"
+				item: "pneumaticcraft:refinery"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24D5BF9B6FD28EF8"]
+			id: "29FAFF7CE82F4705"
+			tasks: [{
+				id: "6AA463B5E7646F1C"
+				item: "pneumaticcraft:refinery_output"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29FAFF7CE82F4705"]
+			id: "4CE0EEC0605A7BF6"
+			tasks: [{
+				id: "1F7AAA27BADB072A"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CE0EEC0605A7BF6"]
+			id: "43DC032EEA5CAE93"
+			tasks: [{
+				id: "4075594130366A6E"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43DC032EEA5CAE93"]
+			id: "23D7FC0A1DA64883"
+			tasks: [{
+				id: "107D87487FB710C5"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23D7FC0A1DA64883"]
+			id: "688558004597E985"
 			tasks: [
 				{
-					id: "23B0D4A8B08372EB"
-					item: "biggerreactors:reactor_casing"
+					id: "26A0124730CAE2CF"
+					item: "pneumaticcraft:empty_pcb"
 					type: "item"
 				}
 				{
-					id: "7358B105CE9752AF"
-					item: "biggerreactors:reactor_terminal"
+					id: "264F938BB463C5A6"
+					item: "pneumaticcraft:unassembled_pcb"
 					type: "item"
 				}
 				{
-					id: "7384264D24283FCC"
-					item: "biggerreactors:reactor_control_rod"
-					type: "item"
-				}
-				{
-					id: "2DB34D2507EBB885"
-					item: "biggerreactors:reactor_fuel_rod"
-					type: "item"
-				}
-				{
-					id: "2C6208B8181148C2"
-					item: "biggerreactors:reactor_access_port"
-					type: "item"
-				}
-				{
-					id: "20818B30CC1BBD15"
-					item: "biggerreactors:reactor_power_tap"
+					id: "727669C97441D067"
+					item: "pneumaticcraft:printed_circuit_board"
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -3.0d
+			title: "电路板"
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["688558004597E985"]
+			id: "6CE805227E99171C"
+			tasks: [
+				{
+					id: "4497240E6858AA44"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "0E84C40D87C8F2DB"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "6972BE59BB86AEE4"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "6704EE2D291C6DA9"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "2394A761567F5C7E"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "77111717AA3643B1"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CE805227E99171C"]
+			id: "76347B378DF0A2D9"
+			tasks: [{
+				id: "7E7FBA97B9DBD71D"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76347B378DF0A2D9"]
+			id: "4978746D755FD280"
+			tasks: [{
+				id: "5CAEDD26CC93F5BE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:advanced_liquid_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:advanced_air_compressor"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:flux_compressor"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.0d
 		}
 	]
-	title: "核电"
+	title: "能源"
 }

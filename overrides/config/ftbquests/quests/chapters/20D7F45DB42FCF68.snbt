@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "20D7F45DB42FCF68"
-	group: "328D59D61271B5A9"
+	group: "5221DFB0D5EDCAFF"
 	icon: "ae2:controller"
 	id: "20D7F45DB42FCF68"
-	order_index: 1
+	order_index: 3
 	quest_links: [{
 		id: "2FB9D39A62BE1328"
 		linked_quest: "271DDB67E4D8F1A4"
@@ -666,10 +666,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"271DDB67E4D8F1A4"
-				"0926A90A9620DDCA"
-			]
+			dependencies: ["0926A90A9620DDCA"]
 			id: "6EAEE6FD87BCC590"
 			rewards: [{
 				id: "6CCF7D990AF58012"
@@ -698,7 +695,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6EAEE6FD87BCC590"]
+			dependencies: [
+				"6EAEE6FD87BCC590"
+				"271DDB67E4D8F1A4"
+			]
 			id: "1EE8D9285D8C6A1E"
 			rewards: [{
 				id: "21552617FF1EE856"

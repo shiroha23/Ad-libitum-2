@@ -1037,16 +1037,6 @@
 			y: 6.0d
 		}
 		{
-			id: "08AE0CE904588280"
-			invisible: true
-			tasks: [{
-				id: "184A91BA59EB07CA"
-				type: "custom"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["35E66D8E1C65C807"]
 			hide_dependency_lines: true
 			id: "4420892A23F82452"

@@ -5,8 +5,13 @@
 	group: "5221DFB0D5EDCAFF"
 	icon: "fluxnetworks:flux_core"
 	id: "10DA0E31CC5F1565"
-	order_index: 3
-	quest_links: [ ]
+	order_index: 4
+	quest_links: [{
+		id: "7D2998CB035FC51A"
+		linked_quest: "0C58856C9A0D1E11"
+		x: -12.0d
+		y: -2.0d
+	}]
 	quests: [
 		{
 			id: "7676FFB751B96D9C"
@@ -106,19 +111,24 @@
 				item: "mekanism:solar_neutron_activator"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -10.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["375118033A3B3106"]
+			dependencies: [
+				"32079F5BD2CF2527"
+				"2E5399A13ECF67D3"
+			]
 			id: "17CD8AE140040DB6"
 			tasks: [
 				{
+					count: 60L
 					id: "73B1772EA0F31C22"
 					item: "mekanism:sps_casing"
 					type: "item"
 				}
 				{
+					count: 3L
 					id: "256F447C989AF285"
 					item: "mekanism:sps_port"
 					type: "item"
@@ -128,8 +138,14 @@
 					item: "mekanism:supercharged_coil"
 					type: "item"
 				}
+				{
+					id: "5741CD9FE5337351"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
 			]
-			x: -2.0d
+			title: "超临界移相器"
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -140,11 +156,11 @@
 				item: "mekanism:chemical_crystallizer"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["0D629786C3E4E7FB"]
+			dependencies: ["4A2EF19901CE07D1"]
 			id: "7665032BF499890A"
 			tasks: [{
 				id: "712BDD7BD5E37892"
@@ -153,6 +169,61 @@
 			}]
 			x: 2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["0D629786C3E4E7FB"]
+			id: "4A2EF19901CE07D1"
+			tasks: [{
+				id: "40F181467E7F9FB7"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6709669C6788AD8F"]
+			id: "32079F5BD2CF2527"
+			tasks: [{
+				id: "315AA38B17828B0F"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["375118033A3B3106"]
+			id: "6709669C6788AD8F"
+			tasks: [{
+				id: "35CEA5E198AE68DF"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["606393CA4773BEF8"]
+			id: "2E5399A13ECF67D3"
+			tasks: [{
+				id: "4887076C67E7C7BC"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C58856C9A0D1E11"]
+			id: "606393CA4773BEF8"
+			tasks: [{
+				id: "317C3807CD3F21E2"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
 		}
 	]
 	title: "通量网络"

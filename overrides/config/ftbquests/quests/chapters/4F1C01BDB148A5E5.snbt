@@ -279,9 +279,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				dimension: "ad_astra:mars"
-				id: "0D49DCACBE780069"
-				type: "dimension"
+				id: "5754E2786A8F3745"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
 			}]
 			x: 6.0d
 			y: 2.0d
@@ -301,9 +301,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				dimension: "ad_astra:moon"
-				id: "38EEA5E09770785F"
-				type: "dimension"
+				id: "393DE7BD94B9220B"
+				item: "ad_astra:desh_ingot"
+				type: "item"
 			}]
 			x: 2.0d
 			y: 2.0d
@@ -323,9 +323,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				dimension: "ad_astra:venus"
-				id: "1DAAA7B06F46EA22"
-				type: "dimension"
+				id: "26BCBC73A8A6D2FA"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
 			}]
 			x: 10.0d
 			y: 2.0d
