@@ -666,7 +666,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0926A90A9620DDCA"]
+			dependencies: [
+				"0926A90A9620DDCA"
+				"271DDB67E4D8F1A4"
+			]
 			id: "6EAEE6FD87BCC590"
 			rewards: [{
 				id: "6CCF7D990AF58012"
@@ -679,26 +682,34 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "33E8D398D3B52F7F"
-				item: {
-					Count: 1
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "ae2:printed"
-					}
+			tasks: [
+				{
+					id: "6C5749C030EEE9EC"
+					item: "ae2:printed_logic_processor"
+					type: "item"
 				}
-				title: "电路板"
-				type: "item"
-			}]
+				{
+					id: "607832212627682C"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "3A122155F55B4FEF"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "2D7A3CD0F0E1C0CF"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			title: "电路板"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"6EAEE6FD87BCC590"
-				"271DDB67E4D8F1A4"
-			]
+			dependencies: ["6EAEE6FD87BCC590"]
 			id: "1EE8D9285D8C6A1E"
 			rewards: [{
 				id: "21552617FF1EE856"
@@ -711,31 +722,24 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "75EBAFFDC341CF3A"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ae2:logic_processor"
-							}
-							{
-								Count: 1b
-								id: "ae2:calculation_processor"
-							}
-							{
-								Count: 1b
-								id: "ae2:engineering_processor"
-							}
-						]
-					}
+			tasks: [
+				{
+					id: "6C9E63BCB66098F5"
+					item: "ae2:logic_processor"
+					type: "item"
 				}
-				title: " 处理器"
-				type: "item"
-			}]
+				{
+					id: "3C479295EF624DBD"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "3C3D587EF23C9284"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "处理器"
 			x: 10.0d
 			y: -2.0d
 		}

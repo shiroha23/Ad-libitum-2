@@ -3,6 +3,7 @@
 		{ id: "2364E1E6EBB3ABCB", title: "生存" }
 		{ id: "5221DFB0D5EDCAFF", title: "科技" }
 		{ id: "6DB4BF959ECD85D6", title: "魔法" }
-		{ id: "5C39A77F4B0C1142", title: "生产力" }
+		{ id: "5C39A77F4B0C1142", title: "生产" }
+		{ id: "2ADD34C671CB418A", title: "终极" }
 	]
 }

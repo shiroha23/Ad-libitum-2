@@ -5,7 +5,203 @@
 	group: "5C39A77F4B0C1142"
 	id: "0A8FFB227246DA8D"
 	order_index: 0
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "176FB26C03FDEFC7"
+		linked_quest: "790A6D2A8BEEB518"
+		x: -2.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["790A6D2A8BEEB518"]
+			id: "165C5F7FC28B3A75"
+			tasks: [{
+				id: "6DB3E54519DE7F0B"
+				item: "enderio:soularium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["165C5F7FC28B3A75"]
+			id: "02A1A141A164920A"
+			tasks: [{
+				id: "2A0A3D923A312022"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02A1A141A164920A"]
+			id: "57B8F2D953A9FCF2"
+			tasks: [{
+				id: "6D89A6BBBBD69432"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57B8F2D953A9FCF2"]
+			id: "1B5CF040E9AA00BE"
+			tasks: [{
+				id: "4FFB819A593E2CC8"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B5CF040E9AA00BE"]
+			id: "09385854D2427E51"
+			tasks: [{
+				id: "22365E4E633741F0"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "2FB0C2F772B6DF70"
+			tasks: [{
+				id: "61C07C2003FC9EEF"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27EAC2BA2AB63A0F"]
+			id: "7B9C08BF948B2748"
+			tasks: [{
+				id: "5F80931A7A988CC9"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:capturing"
+							lvl: 7s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FB0C2F772B6DF70"]
+			id: "27EAC2BA2AB63A0F"
+			tasks: [{
+				id: "68729C73D48D5967"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B9C08BF948B2748"]
+			id: "5E6F47A8FE5D957E"
+			tasks: [
+				{
+					id: "4FED10FBD2F7CCE5"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:soul_lantern"
+								}
+								{
+									Count: 1b
+									id: "minecraft:ghast_tear"
+								}
+								{
+									Count: 1b
+									id: "minecraft:fermented_spider_eye"
+								}
+								{
+									Count: 1b
+									id: "minecraft:white_wool"
+								}
+								{
+									Count: 1b
+									id: "minecraft:chorus_fruit"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sugar"
+								}
+								{
+									Count: 1b
+									id: "minecraft:turtle_egg"
+								}
+								{
+									Count: 1b
+									id: "minecraft:nether_star"
+								}
+								{
+									Count: 1b
+									id: "minecraft:prismarine_crystals"
+								}
+								{
+									Count: 1b
+									id: "minecraft:clock"
+									tag: {
+										"quark:clock_calculated": 1b
+									}
+								}
+								{
+									Count: 1b
+									id: "minecraft:dragon_egg"
+								}
+								{
+									Count: 1b
+									id: "minecraft:blaze_rod"
+								}
+								{
+									Count: 1b
+									id: "minecraft:comparator"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5ECE64DFC8EF7BE2"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "刷怪笼调节器"
+			x: 4.0d
+			y: -2.0d
+		}
+	]
 	title: "生物掉落"
 }

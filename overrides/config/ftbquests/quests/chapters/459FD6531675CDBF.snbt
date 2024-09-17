@@ -1,4 +1,5 @@
 {
+	autofocus_id: "056E7122E218F1D3"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "459FD6531675CDBF"
@@ -6,12 +7,26 @@
 	icon: "biggerreactors:reactor_terminal"
 	id: "459FD6531675CDBF"
 	order_index: 1
-	quest_links: [{
-		id: "79613EDE57C608E3"
-		linked_quest: "20ECE8A6E71D87F1"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quest_links: [
+		{
+			id: "79613EDE57C608E3"
+			linked_quest: "20ECE8A6E71D87F1"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7DBE780375BD2849"
+			linked_quest: "751BEAE1B47A7A41"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "4F35958BEFC00962"
+			linked_quest: "757D8B546C75091E"
+			x: 0.0d
+			y: -6.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["0B6DF92E45BC7DC8"]
@@ -114,203 +129,256 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["15C4226DE925A59C"]
-			hide_dependency_lines: true
-			id: "2AC33B10299ABC8B"
-			tasks: [{
-				id: "00606AA709482E13"
-				item: "pneumaticcraft:seismic_sensor"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2AC33B10299ABC8B"]
-			id: "5B79622950A4EC2E"
-			tasks: [
-				{
-					id: "4EB2A74A3BE30D33"
-					item: "pneumaticcraft:gas_lift"
-					type: "item"
-				}
-				{
-					id: "0BFA79DC2C6F6E3D"
-					item: "pneumaticcraft:drill_pipe"
-					type: "item"
-				}
+			dependencies: [
+				"5809541CF3E51856"
+				"7DAF89241C685DED"
+				"254E47ABA80014A3"
 			]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["5B79622950A4EC2E"]
-			id: "3CDE84BC5521B62D"
+			id: "77CFD92FA1693D44"
 			tasks: [{
-				id: "7C27139CE4FEDF27"
-				item: "pneumaticcraft:small_tank"
+				id: "014A8BA0794A1F67"
+				item: "immersiveengineering:cloche"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["3CDE84BC5521B62D"]
-			id: "24D5BF9B6FD28EF8"
+			dependencies: ["751BEAE1B47A7A41"]
+			id: "254E47ABA80014A3"
 			tasks: [{
-				id: "51B791CB720CD01E"
-				item: "pneumaticcraft:refinery"
+				id: "5B3A1F744523930A"
+				item: "immersiveengineering:light_bulb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77CFD92FA1693D44"]
+			id: "4B0E66C16E7A2E11"
+			tasks: [{
+				id: "13FB32A203E52AF3"
+				item: "minecraft:melon_seeds"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["24D5BF9B6FD28EF8"]
-			id: "29FAFF7CE82F4705"
+			dependencies: ["4B0E66C16E7A2E11"]
+			id: "25D8550EC5D4466B"
 			tasks: [{
-				id: "6AA463B5E7646F1C"
-				item: "pneumaticcraft:refinery_output"
+				id: "295EB58A5CB4DC39"
+				item: "mekanism:precision_sawmill"
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["29FAFF7CE82F4705"]
-			id: "4CE0EEC0605A7BF6"
+			dependencies: [
+				"4DD5F8FE1BFE73B7"
+				"4AB681644CFE7E5E"
+			]
+			id: "303E3C927AECB671"
 			tasks: [{
-				id: "1F7AAA27BADB072A"
-				item: "pneumaticcraft:thermopneumatic_processing_plant"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4CE0EEC0605A7BF6"]
-			id: "43DC032EEA5CAE93"
-			tasks: [{
-				id: "4075594130366A6E"
-				item: "pneumaticcraft:plastic"
+				id: "747BBB53AA5BBCC0"
+				item: "mekanism:bio_fuel"
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["43DC032EEA5CAE93"]
-			id: "23D7FC0A1DA64883"
+			dependencies: ["783360A2BB7EF4D8"]
+			id: "6AB57DC53359B34D"
 			tasks: [{
-				id: "107D87487FB710C5"
-				item: "pneumaticcraft:etching_tank"
+				id: "4AA51B40D5E250D7"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["303E3C927AECB671"]
+			id: "783360A2BB7EF4D8"
+			tasks: [{
+				id: "7772A159A0407F14"
+				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["23D7FC0A1DA64883"]
-			id: "688558004597E985"
-			tasks: [
-				{
-					id: "26A0124730CAE2CF"
-					item: "pneumaticcraft:empty_pcb"
-					type: "item"
-				}
-				{
-					id: "264F938BB463C5A6"
-					item: "pneumaticcraft:unassembled_pcb"
-					type: "item"
-				}
-				{
-					id: "727669C97441D067"
-					item: "pneumaticcraft:printed_circuit_board"
-					type: "item"
-				}
-			]
-			title: "电路板"
-			x: 16.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["688558004597E985"]
-			id: "6CE805227E99171C"
-			tasks: [
-				{
-					id: "4497240E6858AA44"
-					item: "pneumaticcraft:assembly_platform"
-					type: "item"
-				}
-				{
-					id: "0E84C40D87C8F2DB"
-					item: "pneumaticcraft:assembly_io_unit_import"
-					type: "item"
-				}
-				{
-					id: "6972BE59BB86AEE4"
-					item: "pneumaticcraft:assembly_io_unit_export"
-					type: "item"
-				}
-				{
-					id: "6704EE2D291C6DA9"
-					item: "pneumaticcraft:assembly_drill"
-					type: "item"
-				}
-				{
-					id: "2394A761567F5C7E"
-					item: "pneumaticcraft:assembly_laser"
-					type: "item"
-				}
-				{
-					id: "77111717AA3643B1"
-					item: "pneumaticcraft:assembly_controller"
-					type: "item"
-				}
-			]
-			x: 18.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6CE805227E99171C"]
-			id: "76347B378DF0A2D9"
+			dependencies: ["6AB57DC53359B34D"]
+			id: "77CCCB3D183D1FC6"
 			tasks: [{
-				id: "7E7FBA97B9DBD71D"
-				item: "pneumaticcraft:advanced_pressure_tube"
+				id: "201FA1E653E3AC59"
+				item: "mekanismgenerators:gas_burning_generator"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 2.0d
+			x: 18.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["76347B378DF0A2D9"]
-			id: "4978746D755FD280"
+			dependencies: ["25D8550EC5D4466B"]
+			id: "4AB681644CFE7E5E"
 			tasks: [{
-				id: "5CAEDD26CC93F5BE"
+				id: "1ABB3F7D4EF830AF"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["757D8B546C75091E"]
+			id: "27211584658108E8"
+			tasks: [{
+				id: "62145E91C682C831"
+				item: "thermal:press_coin_die"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27211584658108E8"]
+			id: "486B60D42F7C03D0"
+			subtitle: "你总有用不完的金属"
+			tasks: [{
+				id: "6C47F2F753F57F66"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "itemfilters:tag"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "pneumaticcraft:advanced_liquid_compressor"
-							}
-							{
-								Count: 1b
-								id: "pneumaticcraft:advanced_air_compressor"
-							}
-							{
-								Count: 1b
-								id: "pneumaticcraft:flux_compressor"
-							}
-						]
+						value: "forge:coins"
 					}
 				}
+				title: "Any #forge:coins"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 2.0d
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["486B60D42F7C03D0"]
+			id: "20D3CBA4B153762A"
+			tasks: [{
+				id: "0DEDB5AD239DD70E"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			id: "5608BBD659790606"
+			tasks: [
+				{
+					count: 10L
+					id: "36D213449AD40A15"
+					item: { Count: 10, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					id: "714C35BE2988E4D0"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "131B52824FC3196B"
+					item: { Count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3AB6F5CEBE21E18E"
+					item: { Count: 8, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "743E603434959A38"
+					item: { Count: 9, id: "minecraft:hopper" }
+					type: "item"
+				}
+			]
+			title: "粉碎机"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5608BBD659790606"]
+			id: "7B96B18E3B7583E9"
+			tasks: [
+				{
+					id: "2B1E3D9EFE64D562"
+					item: "immersiveengineering:dust_hop_graphite"
+					type: "item"
+				}
+				{
+					id: "5DCEBB4272175CC6"
+					item: "biggerreactors:graphite_ingot"
+					type: "item"
+				}
+			]
+			title: "石墨"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B96B18E3B7583E9"]
+			id: "07BFA10CB4052D2B"
+			tasks: [
+				{
+					id: "662B66A264A8F285"
+					item: "biggerreactors:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "01F1BFF6067B9C4D"
+					item: "biggerreactors:reactor_terminal"
+					type: "item"
+				}
+				{
+					id: "64898E38AB26A687"
+					item: "biggerreactors:reactor_fuel_rod"
+					type: "item"
+				}
+				{
+					id: "0D61B8E98BF9C4D2"
+					item: "biggerreactors:reactor_control_rod"
+					type: "item"
+				}
+				{
+					id: "76259CD1E8F2277D"
+					item: "biggerreactors:reactor_access_port"
+					type: "item"
+				}
+				{
+					id: "1989BDB241E56685"
+					item: "biggerreactors:reactor_power_tap"
+					type: "item"
+				}
+			]
+			title: "反应堆"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "056E7122E218F1D3"
+			invisible: true
+			tasks: [{
+				id: "5C005043FD16D3EA"
+				type: "custom"
+			}]
+			x: 5.0d
+			y: -3.0d
 		}
 	]
 	title: "能源"

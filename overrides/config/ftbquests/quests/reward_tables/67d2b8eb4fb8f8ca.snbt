@@ -73,6 +73,18 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 8s
+					}]
+				}
+			}
+		}
 	]
 	title: "一般"
 }
