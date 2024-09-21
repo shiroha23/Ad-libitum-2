@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
             "item": "enderio:enderface_materials"
           },
           "F": {
-            "item": "techreborn:superconductor_cable"
+            "item": "create:precision_mechanism"
           }
         },
         "result": {
