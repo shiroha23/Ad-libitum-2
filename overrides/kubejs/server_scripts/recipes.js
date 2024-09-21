@@ -63,21 +63,6 @@ ServerEvents.recipes(event => {
     event.shapeless('biggerreactors:graphite_dust',['immersiveengineering:dust_hop_graphite'])
     event.shapeless('immersiveengineering:dust_hop_graphite',['biggerreactors:graphite_dust'])
 
-//统一橡胶
-    event.shapeless('thermal:rubber',['techreborn:sap'])
-    event.shapeless('techreborn:sap',['thermal:rubber'])
-    event.shapeless('thermal:cured_rubber',['techreborn:rubber'])
-    event.shapeless('techreborn:rubber',['thermal:cured_rubber'])
-
-//橡胶精华合成科技复兴橡胶
-    event.shaped(Item.of('techreborn:rubber', 8), [
-        'X',
-        'X',
-        'X'
-    ], {
-        X: 'mysticalagriculture:rubber_essence'
-    })
-
 //通量方块
     event.remove({output:'fluxnetworks:flux_block'})
     event.shaped('fluxnetworks:flux_block',[
