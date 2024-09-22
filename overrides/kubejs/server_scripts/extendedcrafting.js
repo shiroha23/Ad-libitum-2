@@ -271,18 +271,6 @@ ServerEvents.recipes(event => {
               "item": "botania:gaia_ingot"
           },
           {
-              "item": "techreborn:advanced_alloy_ingot"
-          },
-          {
-              "item": "techreborn:chrome_ingot"
-          },
-          {
-              "item": "techreborn:tungstensteel_ingot"
-          },
-          {
-              "item": "techreborn:titanium_ingot"
-          },
-          {
               "item": "betternether:cincinnasite_ingot"
           },
           {
