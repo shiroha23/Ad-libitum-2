@@ -26,6 +26,12 @@
 			x: 0.0d
 			y: -6.0d
 		}
+		{
+			id: "37D6993EA6722EC1"
+			linked_quest: "49FD1E464DBE4F9A"
+			x: 0.0d
+			y: -4.0d
+		}
 	]
 	quests: [
 		{
@@ -276,44 +282,7 @@
 			y: -6.0d
 		}
 		{
-			id: "5608BBD659790606"
-			tasks: [
-				{
-					count: 10L
-					id: "36D213449AD40A15"
-					item: { Count: 10, id: "immersiveengineering:light_engineering" }
-					type: "item"
-				}
-				{
-					id: "714C35BE2988E4D0"
-					item: "immersiveengineering:rs_engineering"
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "131B52824FC3196B"
-					item: { Count: 10, id: "immersiveengineering:steel_scaffolding_standard" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "3AB6F5CEBE21E18E"
-					item: { Count: 8, id: "immersiveengineering:steel_fence" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "743E603434959A38"
-					item: { Count: 9, id: "minecraft:hopper" }
-					type: "item"
-				}
-			]
-			title: "粉碎机"
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5608BBD659790606"]
+			dependencies: ["49FD1E464DBE4F9A"]
 			id: "7B96B18E3B7583E9"
 			tasks: [
 				{

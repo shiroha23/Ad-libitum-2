@@ -1898,8 +1898,13 @@
 					item: "alltheores:steel_dust"
 					type: "item"
 				}
+				{
+					id: "4DC8AD234CF4E22A"
+					item: "alltheores:steel_ingot"
+					type: "item"
+				}
 			]
-			title: "钢"
+			title: "合金制作"
 			x: 4.0d
 			y: 3.0d
 		}
