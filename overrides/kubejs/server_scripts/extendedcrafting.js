@@ -317,84 +317,64 @@ ServerEvents.recipes(event => {
 
     //非欧立方
     event.custom({
-        "type": "extendedcrafting:shapeless_table",
-        "ingredients": [
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
-          },
-          {
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+          " ABC ",
+          "BDEFB",
+          "GHIJK",
+          "BLMNB",
+          " OBP "
+        ],
+        "key": {
+          "A": {
             "item": "cataclysm:remnant_skull"
           },
-          {
+          "B": {
             "item": "enigmaticlegacy:cosmic_heart"
           },
-          {
+          "C": {
             "item": "cataclysm:monstrous_horn"
           },
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
-          },
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
-          },
-          {
+          "D": {
             "item": "enigmaticlegacy:golem_heart"
           },
-          {
+          "E": {
             "item": "bosses_of_mass_destruction:ancient_anima"
           },
-          {
+          "F": {
             "item": "enigmaticlegacy:blazing_core"
           },
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
-          },
-          {
+          "G": {
             "item": "bosses_of_mass_destruction:blazing_eye"
           },
-          {
+          "H": {
             "item": "enigmaticlegacy:angel_blessing"
           },
-          {
+          "I": {
             "item": "botania:dice"
           },
-          {
+          "J": {
             "item": "enigmaticlegacy:eye_of_nebula"
           },
-          {
+          "K": {
             "item": "bosses_of_mass_destruction:obsidian_heart"
           },
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
-          },
-          {
+          "L": {
             "item": "enigmaticlegacy:ocean_stone"
           },
-          {
+          "M": {
             "item": "bosses_of_mass_destruction:void_thorn"
           },
-          {
+          "N": {
             "item": "enigmaticlegacy:void_pearl"
           },
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
-          },
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
-          },
-          {
+          "O": {
             "item": "ars_nouveau:wilden_tribute"
           },
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
-          },
-          {
+          "P": {
             "item": "alexsmobs:void_worm_eye"
-          },
-          {
-            "item": "enigmaticlegacy:cosmic_heart"
           }
-        ],
+        },
         "result": {
           "item": "enigmaticlegacy:the_cube"
         }
