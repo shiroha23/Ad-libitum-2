@@ -31,8 +31,8 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5FC40672E07317B7"]
 			id: "65A5EC19C1B5872B"
+			subtitle: "神化 - Apotheosis：宝石"
 			tasks: [{
 				id: "65552ECB29FAC7F8"
 				item: "apotheosis:salvaging_table"
@@ -105,8 +105,8 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5FC40672E07317B7"]
 			id: "3712354D4241935B"
+			subtitle: "神化 - Apotheosis：附魔"
 			tasks: [
 				{
 					id: "411A430D658833EE"
@@ -202,8 +202,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4738B6AF1EB67221"]
 			id: "2AEB23B2DEECD946"
+			subtitle: "Tetra"
 			tasks: [{
 				id: "664C30BBAD2BD04E"
 				item: {
@@ -349,27 +349,6 @@
 			]
 			title: "热能提取器"
 			x: 6.0d
-			y: 0.0d
-		}
-		{
-			id: "5FC40672E07317B7"
-			subtitle: "Apotheosis"
-			tasks: [{
-				id: "4BD9C6DA0C821461"
-				title: "神化"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			id: "4738B6AF1EB67221"
-			tasks: [{
-				id: "1173AB1D3A2094F8"
-				title: "Tetra"
-				type: "checkmark"
-			}]
-			x: -2.0d
 			y: 0.0d
 		}
 	]

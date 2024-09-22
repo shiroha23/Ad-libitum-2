@@ -508,6 +508,7 @@
 		}
 		{
 			dependencies: ["5809541CF3E51856"]
+			icon: "immersiveengineering:blast_furnace"
 			id: "62C4DF7E79CC4311"
 			rewards: [{
 				id: "7265CA3CA87BFAC3"
@@ -611,6 +612,7 @@
 		}
 		{
 			dependencies: ["0C93D0DF576B05BC"]
+			icon: "immersiveengineering:alloy_smelter"
 			id: "775A52BBED6CE2FA"
 			rewards: [{
 				id: "61BE8F1AA97414DA"
@@ -753,6 +755,7 @@
 		}
 		{
 			dependencies: ["3F1369ED2A0D1BA1"]
+			icon: "immersiveengineering:crusher"
 			id: "49FD1E464DBE4F9A"
 			rewards: [{
 				id: "60E4CD3A43076AFB"
@@ -1945,6 +1948,7 @@
 			y: 4.0d
 		}
 		{
+			hide_dependency_lines: true
 			id: "44B23E7B57F9B760"
 			tasks: [{
 				id: "27C9AEAB2281C5CD"
