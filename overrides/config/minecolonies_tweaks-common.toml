@@ -1,7 +1,4 @@
 
-[tools]
-	customTypes = []
-
 [buildings]
 	customCraftingModules = []
 

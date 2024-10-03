@@ -116,6 +116,10 @@
 	reimuSummonCost = 8
 	#Enable creative flight on Reimu hairband
 	reimuHairbandFlightEnable = true
+	#Enable non-danmaku extra damage cooldown on Reimu
+	reimuExtraDamageCoolDown = true
+	#Enable non-danmaku damage reduction on Reimu
+	reimuDamageReduction = true
 
 [cirno]
 	#Toggle for Cirno natural spawns

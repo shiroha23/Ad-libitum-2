@@ -19,6 +19,8 @@
 	logTaczGunNames: false,
 	// If Iron's Spells 'n Spellbooks is present, it will log the spells id's on cast required to restrict them.
 	logSpellIds: false,
+	// If true this will display the player titles as prefixes when a player chat.
+	displayTitlesAsPrefix: true,
 	// Attack Damage passive value at max level
 	attackDamageValue: 1.5,
 	// Attack damage passive levels. Don't modify the length of the array!

@@ -128,7 +128,7 @@
 				item: "dummmmmmy:target_dummy"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -388,35 +388,6 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4B6BA85AAC4CC7B2"]
-			id: "1ED33D0B1F46F749"
-			rewards: [{
-				id: "6AC2E2C520F566AF"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "1"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "72C271F92EF22186"
-				item: {
-					Count: 1
-					id: "itemfilters:mod"
-					tag: {
-						value: "ironfurnaces"
-					}
-				}
-				title: "更多熔炉"
-				type: "item"
-			}]
-			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -998,6 +969,35 @@
 			}]
 			x: 7.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["4B6BA85AAC4CC7B2"]
+			id: "509475475B1E6FC1"
+			rewards: [{
+				id: "420D2D5BA4F5C392"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "2"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F680B9B766EA6BE"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "pipez"
+					}
+				}
+				title: "Pipez管道"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
 		}
 	]
 	title: "实用"

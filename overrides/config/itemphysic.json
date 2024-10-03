@@ -1,6 +1,5 @@
 {
   "general": {
-    "customThrow": false,
     "fallSounds": true,
     "disableCactusDamage": true,
     "swimmingItems": {
@@ -179,5 +178,11 @@
       "entries": [],
       "isWhitelist": true
     }
+  },
+  "throw": {
+    "enabled": true,
+    "maxStages": 6,
+    "multiplierPerStage": 1,
+    "stageChargeTime": 10
   }
 }

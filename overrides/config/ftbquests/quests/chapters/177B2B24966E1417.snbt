@@ -316,34 +316,6 @@
 			y: 3.0d
 		}
 		{
-			id: "509475475B1E6FC1"
-			rewards: [{
-				id: "420D2D5BA4F5C392"
-				item: {
-					Count: 1
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "2"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7F680B9B766EA6BE"
-				item: {
-					Count: 1
-					id: "itemfilters:mod"
-					tag: {
-						value: "pipez"
-					}
-				}
-				title: "Pipez管道"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["2BE416196F976178"]
 			hide_dependency_lines: true
 			id: "65F677B4B0B136BB"
